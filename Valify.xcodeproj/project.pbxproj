@@ -17,7 +17,6 @@
 		04CDE7842A5C582900628EA0 /* Valify.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CDE7762A5C582900628EA0 /* Valify.h */; };
 		04CDE7DD2A5C882E00628EA0 /* Button+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDE7DC2A5C882E00628EA0 /* Button+Layout.swift */; };
 		04E675F92A5AE8DE008809A2 /* Valify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E675EE2A5AE8DE008809A2 /* Valify.framework */; };
-		04E675FE2A5AE8DE008809A2 /* ValifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E675FD2A5AE8DE008809A2 /* ValifyTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +42,6 @@
 		04CDE7DC2A5C882E00628EA0 /* Button+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Layout.swift"; sourceTree = "<group>"; };
 		04E675EE2A5AE8DE008809A2 /* Valify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Valify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E675F82A5AE8DE008809A2 /* ValifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04E675FD2A5AE8DE008809A2 /* ValifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValifyTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +124,6 @@
 			children = (
 				04CDE7642A5C582900628EA0 /* Sources */,
 				04CDE76C2A5C582900628EA0 /* Assets.xcassets */,
-				04E675FC2A5AE8DE008809A2 /* ValifyTests */,
 				04E675EF2A5AE8DE008809A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,14 +135,6 @@
 				04E675F82A5AE8DE008809A2 /* ValifyTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		04E675FC2A5AE8DE008809A2 /* ValifyTests */ = {
-			isa = PBXGroup;
-			children = (
-				04E675FD2A5AE8DE008809A2 /* ValifyTests.swift */,
-			);
-			path = ValifyTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E675FE2A5AE8DE008809A2 /* ValifyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
