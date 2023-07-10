@@ -8,7 +8,6 @@
 import UIKit
 
 public class CameraNavigationViewController: UINavigationController {
-//    public var onCompleted: ((UIImage?, Error?) -> Void)?
     public var cameraDelegate: CameraHandler?
 
     public override func viewDidLoad() {
@@ -28,11 +27,11 @@ public class CameraNavigationViewController: UINavigationController {
                    self?.cameraDelegate?.didFinishSucceded(image: image)
                }
         }
-//        onCompleted?(cameraViewController.capturedImage, cameraViewController.capturedError)
 
         return super.popViewController(animated: animated)
     }
 }
+
 public protocol CameraHandler {
     func didFinishSucceded(image: UIImage)
     func didFinishWithErrors(error: Error)

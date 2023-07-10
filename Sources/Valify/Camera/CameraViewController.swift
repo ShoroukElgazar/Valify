@@ -58,7 +58,6 @@ public class CameraViewController: UIViewController {
     }
     
     @objc func onClickMyButton(sender: UIButton){
-        print("button pressed")
         cameraController.captureImage { image, error in
             guard let image = image else {
                 print(error ?? "Image capture error")
@@ -99,11 +98,4 @@ public class CameraViewController: UIViewController {
         }
     }
     
-    @IBAction func switchCameras(_ sender: UIButton) {
-        
-    }
-    
-    @IBAction func captureImage(_ sender: UIButton) {
-        
-    }
 }

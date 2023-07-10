@@ -9,11 +9,8 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhotoPreviewViewController" customModule="CameraDemo" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhotoPreviewViewController" customModule="Valify" customModuleProvider="target">
             <connections>
-                <outlet property="doneButton" destination="h53-MR-YUJ" id="E1W-Vx-Gn3"/>
-                <outlet property="imagePreview" destination="sT9-Bg-FJi" id="WEZ-GQ-Ap5"/>
-                <outlet property="retakeButton" destination="VPX-qk-Omi" id="7n3-7G-3Zo"/>
                 <outlet property="view" destination="n1p-ev-wnq" id="UrZ-PS-9CB"/>
             </connections>
         </placeholder>
@@ -22,58 +19,14 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="peb-Uh-QSh">
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="peb-Uh-QSh">
                     <rect key="frame" x="0.0" y="59" width="393" height="759"/>
-                    <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sT9-Bg-FJi">
-                            <rect key="frame" x="20" y="20" width="353" height="671"/>
-                        </imageView>
-                        <stackView opaque="NO" contentMode="scaleToFill" spacing="67" translatesAutoresizingMaskIntoConstraints="NO" id="Go4-5U-9Rx">
-                            <rect key="frame" x="20" y="704.66666666666663" width="353" height="34.333333333333371"/>
-                            <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPX-qk-Omi" userLabel="Retake">
-                                    <rect key="frame" x="0.0" y="0.0" width="143" height="34.333333333333336"/>
-                                    <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="Retake"/>
-                                    <connections>
-                                        <action selector="retakePhoto:" destination="-1" eventType="touchUpInside" id="Hks-KV-aL3"/>
-                                    </connections>
-                                </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h53-MR-YUJ" userLabel="Done">
-                                    <rect key="frame" x="210" y="0.0" width="143" height="34.333333333333336"/>
-                                    <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="Done"/>
-                                    <connections>
-                                        <action selector="doneAction:" destination="-1" eventType="touchUpInside" id="X8O-D3-QcR"/>
-                                    </connections>
-                                </button>
-                            </subviews>
-                        </stackView>
-                    </subviews>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    <constraints>
-                        <constraint firstItem="sT9-Bg-FJi" firstAttribute="leading" secondItem="peb-Uh-QSh" secondAttribute="leading" constant="20" symbolic="YES" id="IDs-Zs-b7T"/>
-                        <constraint firstItem="Go4-5U-9Rx" firstAttribute="top" secondItem="sT9-Bg-FJi" secondAttribute="bottom" constant="13.67" id="L1q-MM-AeQ"/>
-                        <constraint firstAttribute="bottom" secondItem="Go4-5U-9Rx" secondAttribute="bottom" constant="20" symbolic="YES" id="L89-cr-gaS"/>
-                        <constraint firstItem="sT9-Bg-FJi" firstAttribute="top" secondItem="peb-Uh-QSh" secondAttribute="top" constant="20" symbolic="YES" id="Nng-DE-bXx"/>
-                        <constraint firstAttribute="trailing" secondItem="sT9-Bg-FJi" secondAttribute="trailing" constant="20" symbolic="YES" id="ahg-0w-qOu"/>
-                        <constraint firstItem="Go4-5U-9Rx" firstAttribute="leading" secondItem="peb-Uh-QSh" secondAttribute="leading" constant="20" symbolic="YES" id="cwy-fK-DaI"/>
-                        <constraint firstAttribute="trailing" secondItem="Go4-5U-9Rx" secondAttribute="trailing" constant="20" symbolic="YES" id="hMe-tQ-OPz"/>
-                    </constraints>
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="ymY-Fl-JPy"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-            <constraints>
-                <constraint firstItem="ymY-Fl-JPy" firstAttribute="bottom" secondItem="peb-Uh-QSh" secondAttribute="bottom" id="2Ds-gR-I77"/>
-                <constraint firstItem="peb-Uh-QSh" firstAttribute="leading" secondItem="ymY-Fl-JPy" secondAttribute="leading" id="D6y-Rs-UcL"/>
-                <constraint firstItem="peb-Uh-QSh" firstAttribute="bottom" secondItem="ymY-Fl-JPy" secondAttribute="bottom" id="FY1-EG-yxw"/>
-                <constraint firstItem="peb-Uh-QSh" firstAttribute="top" secondItem="ymY-Fl-JPy" secondAttribute="top" id="Hei-mI-ZWm"/>
-                <constraint firstItem="peb-Uh-QSh" firstAttribute="top" secondItem="ymY-Fl-JPy" secondAttribute="top" id="P7I-RW-W0G"/>
-                <constraint firstItem="ymY-Fl-JPy" firstAttribute="trailing" secondItem="peb-Uh-QSh" secondAttribute="trailing" id="UmE-3w-hnR"/>
-                <constraint firstItem="peb-Uh-QSh" firstAttribute="leading" secondItem="ymY-Fl-JPy" secondAttribute="leading" id="tUg-Jt-kuv"/>
-                <constraint firstItem="peb-Uh-QSh" firstAttribute="trailing" secondItem="ymY-Fl-JPy" secondAttribute="trailing" id="xVQ-VV-Tvy"/>
-            </constraints>
             <point key="canvasLocation" x="9.9236641221374047" y="19.718309859154932"/>
         </view>
     </objects>

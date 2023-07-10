@@ -9,9 +9,6 @@ import UIKit
 
 class PhotoPreviewViewController: UIViewController {
 
-    @IBOutlet weak var imagePreview: UIImageView!
-    @IBOutlet weak var doneButton: UIButton!
-    @IBOutlet weak var retakeButton: UIButton!
     var previewView : UIView!
     var boxView:UIView!
     var imageView =  UIImageView(frame: CGRect(x: 0,
@@ -49,19 +46,28 @@ class PhotoPreviewViewController: UIViewController {
              boxView = UIView(frame: self.view.frame)
 
 
-        // Create two buttons
+            // Create two buttons
             let buttonWidth: CGFloat = 150
             let buttonHeight: CGFloat = 40
             let buttonSpacing: CGFloat = 20
+        let frame = CGRect(x: (self.view.bounds.width - (buttonWidth * 2 + buttonSpacing)) / 2, y: self.view.bounds.height - 100, width: buttonWidth, height: buttonHeight)
 
-            let button1 = UIButton(type: .system)
-            button1.frame = CGRect(x: (self.view.bounds.width - (buttonWidth * 2 + buttonSpacing)) / 2, y: self.view.bounds.height - 100, width: buttonWidth, height: buttonHeight)
-            button1.backgroundColor = UIColor.red
-            button1.layer.masksToBounds = true
-            button1.setTitle("Done", for: .normal)
-            button1.setTitleColor(UIColor.white, for: .normal)
-            button1.layer.cornerRadius = buttonHeight / 2
-            button1.addTarget(self, action: #selector(onClickButton1), for: .touchUpInside)
+        
+    let button1 =
+        ButtonView(title: "Done",buttonFrame: frame,view: self.view){
+            [weak self] in
+            self?.onCompleted?(self?.imageView.image, nil)
+                     
+                    self?.navigationController?.popViewController(animated: true)
+        }
+//            let button1 = UIButton(type: .system)
+//            button1.frame = CGRect(x: (self.view.bounds.width - (buttonWidth * 2 + buttonSpacing)) / 2, y: self.view.bounds.height - 100, width: buttonWidth, height: buttonHeight)
+//            button1.backgroundColor = UIColor.red
+//            button1.layer.masksToBounds = true
+//            button1.setTitle("Done", for: .normal)
+//            button1.setTitleColor(UIColor.white, for: .normal)
+//            button1.layer.cornerRadius = buttonHeight / 2
+//            button1.addTarget(self, action: #selector(onClickDone), for: .touchUpInside)
 
             let button2 = UIButton(type: .system)
             button2.frame = CGRect(x: button1.frame.origin.x + buttonWidth + buttonSpacing, y: self.view.bounds.height - 100, width: buttonWidth, height: buttonHeight)
@@ -70,7 +76,7 @@ class PhotoPreviewViewController: UIViewController {
             button2.setTitle("Retake", for: .normal)
             button2.setTitleColor(UIColor.white, for: .normal)
             button2.layer.cornerRadius = buttonHeight / 2
-            button2.addTarget(self, action: #selector(onClickButton2), for: .touchUpInside)
+            button2.addTarget(self, action: #selector(onClickRetake), for: .touchUpInside)
 
              view.addSubview(boxView)
              view.addSubview(button1)
@@ -84,33 +90,16 @@ class PhotoPreviewViewController: UIViewController {
     }
     
     
-    @objc func onClickButton1(sender: UIButton){
+    @objc func onClickDone(sender: UIButton){
         onCompleted?(imageView.image, nil)
          
         self.navigationController?.popViewController(animated: true)
         
     }
 
-    @objc func onClickButton2(sender: UIButton){
+    @objc func onClickRetake(sender: UIButton){
           onDismiss()
         self.navigationController?.popViewController(animated: true)
     }
-    
-    @IBAction func retakePhoto(_ sender: Any) {
-//        navigationController?.popViewController(animated: true)
-//        guard let image = imageView else {return}
-//
-//        onCompleted?(image, nil)
-//        self.dismiss(animated: true, completion: nil)
-    }
-    
-    @IBAction func doneAction(_ sender: Any) {
-//        guard let image = imageView else {return}
-//
-//        onCompleted?(image, nil)
-//        self.dismiss(animated: true, completion: nil)
 
-//        self.navigationController?.popToRootViewController(animated: true)
-
-    }
 }
