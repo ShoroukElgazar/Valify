@@ -9,7 +9,7 @@ DESC
   s.homepage         = 'https://github.com/ShoroukElgazar/Valify.git'
   s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.author           = { 'Shorouk' => 'shorouk.mohamed93@gmail.com' }
-  s.source           = { :git => 'https://github.com/ShoroukElgazar/Valify.git'] }
+  s.source           = { :git => 'https://github.com/ShoroukElgazar/Valify.git' }
 
 
   s.swift_version = '5'
