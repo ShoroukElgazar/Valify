@@ -35,11 +35,8 @@ class PhotoPreviewViewController: UIViewController {
     private func setupView() {
        
         setupPreviewView()
-        
         setupBoxView()
-      
         setupButtons()
-        
         setupImage()
     }
     
