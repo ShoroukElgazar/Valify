@@ -10,19 +10,18 @@ import Photos
 
 public class CameraViewController: UIViewController {
     let cameraController = CameraController()
-    @IBOutlet public var capturePreviewView: UIView!
     public var onCompleted: ((UIImage?,Error?) -> Void)? = nil
     var onDismiss: (() -> Void) = {}
     public var previewView : UIView!
     var boxView:UIView!
     let myButton: UIButton = UIButton()
-    public  var  capturedImage: UIImage?
-    public  var  capturedError: Error?
+    public var capturedImage: UIImage?
+    public var capturedError: Error?
     
     public override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        setupUI()
+        setupView()
         configureCameraController()
      
         
@@ -33,32 +32,47 @@ public class CameraViewController: UIViewController {
         }
     }
     
-    func setupUI() {
-        previewView = UIView(frame: CGRect(x: 0,
-                                           y: 0,
-                                           width: UIScreen.main.bounds.size.width,
-                                           height: UIScreen.main.bounds.size.height))
-        previewView.contentMode = UIView.ContentMode.scaleAspectFit
-        view.addSubview(previewView)
-        
-        //Add a view on top of the cameras' view
-        boxView = UIView(frame: self.view.frame)
-        
-        myButton.frame = CGRect(x: 0, y: 0, width: 200, height: 40)
-        myButton.backgroundColor = UIColor.red
-        myButton.layer.masksToBounds = true
-        myButton.setTitle("press me", for: .normal)
-        myButton.setTitleColor(UIColor.white, for: .normal)
-        myButton.layer.cornerRadius = 20.0
-        myButton.layer.position = CGPoint(x: self.view.frame.width/2, y:200)
-        myButton.addTarget(self, action: #selector(self.onClickMyButton(sender:)), for: .touchUpInside)
-        
-        view.addSubview(boxView)
-        view.addSubview(myButton)
+    private func setupView() {
+       setpPreviewView()
+        setpBoxView()
+        setpCaptureButton()
     }
     
-    @objc func onClickMyButton(sender: UIButton){
-        print("button pressed")
+    
+    private func setpPreviewView() {
+        previewView = UIView(frame:
+        CGRect(x: 0,y: 0,width: UIScreen.main.bounds.size.width,
+                height: UIScreen.main.bounds.size.height))
+        previewView.contentMode = UIView.ContentMode.scaleAspectFit
+        view.addSubview(previewView)
+    }
+    
+    private func setpBoxView() {
+        boxView = UIView(frame: self.view.frame)
+        view.addSubview(boxView)
+    }
+    
+    private func setpCaptureButton() {
+        
+        let buttonWidth: CGFloat = 150
+        let buttonHeight: CGFloat = 40
+        let xPosition = (self.view.bounds.width - buttonWidth) / 2
+        let yPosition = self.view.bounds.height - 100
+
+        let captureButton = UIButton(title: "done", frame: CGRect(x: xPosition, y: yPosition, width: buttonWidth, height: buttonHeight),backgroundColor: UIColor.red)
+
+        captureButton.addTarget(self, action: #selector(self.onClickCaptureButton), for: .touchUpInside)
+        
+        view.addSubview(captureButton)
+    }
+    
+  
+    @objc func onClickCaptureButton(sender: UIButton){
+        handleCapturingImage()
+    }
+    
+    
+   private func handleCapturingImage() {
         cameraController.captureImage { image, error in
             guard let image = image else {
                 print(error ?? "Image capture error")
@@ -87,9 +101,7 @@ public class CameraViewController: UIViewController {
         }
     }
     
-    
-    
-    public func configureCameraController() {
+    private  func configureCameraController() {
         cameraController.prepare {(error) in
             if let error = error {
                 print(error)
@@ -99,11 +111,5 @@ public class CameraViewController: UIViewController {
         }
     }
     
-    @IBAction func switchCameras(_ sender: UIButton) {
-        
-    }
-    
-    @IBAction func captureImage(_ sender: UIButton) {
-        
-    }
+
 }

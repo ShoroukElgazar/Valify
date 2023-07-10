@@ -11,7 +11,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraViewController" customModule="Valify" customModuleProvider="target">
             <connections>
-                <outlet property="capturePreviewView" destination="9DM-1Z-35y" id="MDu-Mb-unN"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -22,25 +21,7 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9DM-1Z-35y">
                     <rect key="frame" x="0.0" y="59" width="393" height="759"/>
-                    <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVq-zf-1rF">
-                            <rect key="frame" x="159" y="699" width="75" height="35"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="35" id="ZXp-Xk-pB8"/>
-                                <constraint firstAttribute="width" constant="75" id="rWN-kR-fQF"/>
-                            </constraints>
-                            <state key="normal" title="Button"/>
-                            <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            <connections>
-                                <action selector="captureImage:" destination="-1" eventType="touchUpInside" id="wiO-V3-uaK"/>
-                            </connections>
-                        </button>
-                    </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    <constraints>
-                        <constraint firstAttribute="bottom" secondItem="dVq-zf-1rF" secondAttribute="bottom" constant="25" id="Prx-mP-waO"/>
-                        <constraint firstItem="dVq-zf-1rF" firstAttribute="centerX" secondItem="9DM-1Z-35y" secondAttribute="centerX" id="p7o-5y-VRi"/>
-                    </constraints>
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

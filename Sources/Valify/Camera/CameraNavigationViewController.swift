@@ -13,6 +13,8 @@ public class CameraNavigationViewController: UINavigationController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         self.setViewControllers([CameraViewController()], animated: true)
+        navigationItem.hidesBackButton = true
+
     }
 
     public override func popViewController(animated: Bool) -> UIViewController? {
