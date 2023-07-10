@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Valify'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'Valify'
   s.description      = <<-DESC
 Clean, simple, and customizable.
@@ -9,7 +9,7 @@ DESC
   s.homepage         = 'https://github.com/ShoroukElgazar/Valify.git'
   s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.author           = { 'Shorouk' => 'shorouk.mohamed93@gmail.com' }
-  s.source           = { :git => 'https://github.com/ShoroukElgazar/Valify.git' }
+  s.source           = { :git => 'https://github.com/ShoroukElgazar/Valify.git', :tag => s.version.to_s }
 
 
   s.swift_version = '5'
