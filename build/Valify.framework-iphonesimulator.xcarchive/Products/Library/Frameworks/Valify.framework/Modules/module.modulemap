@@ -1,0 +1,11 @@
+framework module Valify {
+  umbrella header "Valify.h"
+
+  export *
+  module * { export * }
+}
+
+module Valify.Swift {
+  header "Valify-Swift.h"
+  requires objc
+}
