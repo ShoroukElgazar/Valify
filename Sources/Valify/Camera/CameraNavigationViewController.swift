@@ -8,7 +8,7 @@
 import UIKit
 
 public class CameraNavigationViewController: UINavigationController {
-    public var onCompleted: ((UIImage?, Error?) -> Void)?
+//    public var onCompleted: ((UIImage?, Error?) -> Void)?
     public var cameraDelegate: CameraHandler?
 
     public override func viewDidLoad() {
