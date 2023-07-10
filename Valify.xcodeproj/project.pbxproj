@@ -90,7 +90,6 @@
 				04CDE7DE2A5C889900628EA0 /* PhotoPreviewController */,
 				04CDE7692A5C582900628EA0 /* CameraController.swift */,
 				04CDE76A2A5C582900628EA0 /* CameraNavigationViewController.swift */,
-				04CDE76C2A5C582900628EA0 /* Assets.xcassets */,
 				04CDE7742A5C582900628EA0 /* Info.plist */,
 			);
 			path = Camera;
@@ -126,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				04CDE7642A5C582900628EA0 /* Sources */,
+				04CDE76C2A5C582900628EA0 /* Assets.xcassets */,
 				04E675FC2A5AE8DE008809A2 /* ValifyTests */,
 				04E675EF2A5AE8DE008809A2 /* Products */,
 			);
