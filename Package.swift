@@ -25,5 +25,8 @@ let package = Package(
                     name: "Valify",
                     dependencies: [],
                     path: "Sources"),
+            .testTarget(
+                name: "ValifyTests",
+                dependencies: ["Valify"]),
         ]
 )
