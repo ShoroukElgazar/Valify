@@ -1,5 +1,3 @@
-# Valify
-
 **Valify** is a simple framework to capture photos.
 
 ![swift v5.3](https://img.shields.io/badge/swift-v5.3-orange.svg)
@@ -12,9 +10,8 @@
 
 # Table of contents
 
-- [Preview](#preview)
 - [Installation](#installation)
-- [Demo](#demo)
+- [Usage](#usage)
 - [License](#license)
 
 ---
@@ -25,25 +22,30 @@
 
 Select `File` -> `Swift Packages` -> `Add Package Dependency` and enter `https://github.com/ShoroukElgazar/Valify.git`.
 
+OR you can add valify as a pod using:
 
+`pod 'Valify', :git => 'https://github.com/ShoroukElgazar/Valify.git', :tag => '1.2.1'`
 
 Then simply `import Valify` wherever you’d like to use the library.
 
 ---
 
 ## :zap: Usage
-1. Import `Valify`.
+
+1. Add Privacy - Camera Usage Description to Info.plist
+
+2. Import `Valify`.
 
 ```swift
 import Valify
 ```
 
-2. Create an object of `CameraNavigationViewController`
+3. Create an object of `CameraNavigationViewController`
 
 ```swift
  var vc = CameraNavigationViewController()
 ```
-3. In the closure that returns from vc it will return image and error, assign image to your imageView and handle the error then present vc:
+4. In the closure that returns from vc it will return image and error, assign image to your imageView and handle the error then present vc:
 
 ```swift
      vc.modalPresentationStyle = .fullScreen
@@ -90,4 +92,5 @@ limitations under the License.
 ```
 
 </details>
+
 
