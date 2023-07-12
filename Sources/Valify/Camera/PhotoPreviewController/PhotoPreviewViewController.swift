@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PhotoPreviewViewController: UIViewController {
+public class PhotoPreviewViewController: UIViewController {
     
     var previewView : UIView!
     var boxView:UIView!
@@ -18,21 +18,21 @@ class PhotoPreviewViewController: UIViewController {
     var onDismiss: (() -> Void) = {}
     
     
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+    public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         
     }
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func viewDidLoad() {
+    public  override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
     }
     
     
-    private func setupView() {
+    public func setupView() {
        
         setupPreviewView()
         setupBoxView()
@@ -40,7 +40,7 @@ class PhotoPreviewViewController: UIViewController {
         setupImage()
     }
     
-    private func setupPreviewView() {
+    public func setupPreviewView() {
         previewView = UIView(frame:
         CGRect(x: 0,y: 0,width: UIScreen.main.bounds.size.width,
                 height: UIScreen.main.bounds.size.height))
@@ -48,18 +48,18 @@ class PhotoPreviewViewController: UIViewController {
         view.addSubview(previewView)
     }
     
-    private func setupBoxView() {
+    public func setupBoxView() {
         boxView = UIView(frame: self.view.frame)
         view.addSubview(boxView)
     }
     
-    private func setupImage() {
+    public func setupImage() {
         imageView.contentMode = .scaleAspectFit
         imageView.image = imageView.image
         boxView.addSubview(imageView)
     }
     
-    private func setupButtons() {
+    public func setupButtons() {
         // Create two buttons
         let buttonWidth: CGFloat = 150
         let buttonHeight: CGFloat = 40

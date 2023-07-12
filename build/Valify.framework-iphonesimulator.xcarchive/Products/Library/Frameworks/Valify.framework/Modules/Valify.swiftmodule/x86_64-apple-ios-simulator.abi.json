@@ -1,0 +1,2124 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Valify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PhotoPreviewViewController",
+        "printedName": "PhotoPreviewViewController",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PhotoPreviewViewController",
+                "printedName": "Valify.PhotoPreviewViewController",
+                "usr": "c:@M@Valify@objc(cs)PhotoPreviewViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Valify@objc(cs)PhotoPreviewViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s6Valify26PhotoPreviewViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "Valify",
+            "overriding": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Valify.PhotoPreviewViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhotoPreviewViewController",
+                    "printedName": "Valify.PhotoPreviewViewController",
+                    "usr": "c:@M@Valify@objc(cs)PhotoPreviewViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Valify@objc(cs)PhotoPreviewViewController(im)initWithCoder:",
+            "mangledName": "$s6Valify26PhotoPreviewViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "Valify",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Valify@objc(cs)PhotoPreviewViewController(im)viewDidLoad",
+            "mangledName": "$s6Valify26PhotoPreviewViewControllerC11viewDidLoadyyF",
+            "moduleName": "Valify",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupView",
+            "printedName": "setupView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Valify26PhotoPreviewViewControllerC05setupD0yyF",
+            "mangledName": "$s6Valify26PhotoPreviewViewControllerC05setupD0yyF",
+            "moduleName": "Valify",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupPreviewView",
+            "printedName": "setupPreviewView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Valify26PhotoPreviewViewControllerC05setupcD0yyF",
+            "mangledName": "$s6Valify26PhotoPreviewViewControllerC05setupcD0yyF",
+            "moduleName": "Valify",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupBoxView",
+            "printedName": "setupBoxView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Valify26PhotoPreviewViewControllerC08setupBoxD0yyF",
+            "mangledName": "$s6Valify26PhotoPreviewViewControllerC08setupBoxD0yyF",
+            "moduleName": "Valify",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupImage",
+            "printedName": "setupImage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Valify26PhotoPreviewViewControllerC10setupImageyyF",
+            "mangledName": "$s6Valify26PhotoPreviewViewControllerC10setupImageyyF",
+            "moduleName": "Valify",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupButtons",
+            "printedName": "setupButtons()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Valify26PhotoPreviewViewControllerC12setupButtonsyyF",
+            "mangledName": "$s6Valify26PhotoPreviewViewControllerC12setupButtonsyyF",
+            "moduleName": "Valify",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Valify@objc(cs)PhotoPreviewViewController",
+        "mangledName": "$s6Valify26PhotoPreviewViewControllerC",
+        "moduleName": "Valify",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Valify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Valify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "Valify"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CameraViewController",
+        "printedName": "CameraViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onCompleted",
+            "printedName": "onCompleted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIImage?, Swift.Error?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage?, Swift.Error?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(UIKit.UIImage?, Swift.Error?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Error?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Valify20CameraViewControllerC11onCompletedySo7UIImageCSg_s5Error_pSgtcSgvp",
+            "mangledName": "$s6Valify20CameraViewControllerC11onCompletedySo7UIImageCSg_s5Error_pSgtcSgvp",
+            "moduleName": "Valify",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UIKit.UIImage?, Swift.Error?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UIImage?, Swift.Error?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(UIKit.UIImage?, Swift.Error?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "UIKit.UIImage?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "UIImage",
+                                    "printedName": "UIKit.UIImage",
+                                    "usr": "c:objc(cs)UIImage"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.Error?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Error",
+                                    "printedName": "Swift.Error",
+                                    "usr": "s:s5ErrorP"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Valify20CameraViewControllerC11onCompletedySo7UIImageCSg_s5Error_pSgtcSgvg",
+                "mangledName": "$s6Valify20CameraViewControllerC11onCompletedySo7UIImageCSg_s5Error_pSgtcSgvg",
+                "moduleName": "Valify",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UIKit.UIImage?, Swift.Error?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UIImage?, Swift.Error?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(UIKit.UIImage?, Swift.Error?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "UIKit.UIImage?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "UIImage",
+                                    "printedName": "UIKit.UIImage",
+                                    "usr": "c:objc(cs)UIImage"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.Error?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Error",
+                                    "printedName": "Swift.Error",
+                                    "usr": "s:s5ErrorP"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Valify20CameraViewControllerC11onCompletedySo7UIImageCSg_s5Error_pSgtcSgvs",
+                "mangledName": "$s6Valify20CameraViewControllerC11onCompletedySo7UIImageCSg_s5Error_pSgtcSgvs",
+                "moduleName": "Valify",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Valify20CameraViewControllerC11onCompletedySo7UIImageCSg_s5Error_pSgtcSgvM",
+                "mangledName": "$s6Valify20CameraViewControllerC11onCompletedySo7UIImageCSg_s5Error_pSgtcSgvM",
+                "moduleName": "Valify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "previewView",
+            "printedName": "previewView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Valify20CameraViewControllerC07previewC0So6UIViewCSgvp",
+            "mangledName": "$s6Valify20CameraViewControllerC07previewC0So6UIViewCSgvp",
+            "moduleName": "Valify",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Valify20CameraViewControllerC07previewC0So6UIViewCSgvg",
+                "mangledName": "$s6Valify20CameraViewControllerC07previewC0So6UIViewCSgvg",
+                "moduleName": "Valify",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Valify20CameraViewControllerC07previewC0So6UIViewCSgvs",
+                "mangledName": "$s6Valify20CameraViewControllerC07previewC0So6UIViewCSgvs",
+                "moduleName": "Valify",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Valify20CameraViewControllerC07previewC0So6UIViewCSgvM",
+                "mangledName": "$s6Valify20CameraViewControllerC07previewC0So6UIViewCSgvM",
+                "moduleName": "Valify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "capturedImage",
+            "printedName": "capturedImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Valify20CameraViewControllerC13capturedImageSo7UIImageCSgvp",
+            "mangledName": "$s6Valify20CameraViewControllerC13capturedImageSo7UIImageCSgvp",
+            "moduleName": "Valify",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Valify20CameraViewControllerC13capturedImageSo7UIImageCSgvg",
+                "mangledName": "$s6Valify20CameraViewControllerC13capturedImageSo7UIImageCSgvg",
+                "moduleName": "Valify",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Valify20CameraViewControllerC13capturedImageSo7UIImageCSgvs",
+                "mangledName": "$s6Valify20CameraViewControllerC13capturedImageSo7UIImageCSgvs",
+                "moduleName": "Valify",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Valify20CameraViewControllerC13capturedImageSo7UIImageCSgvM",
+                "mangledName": "$s6Valify20CameraViewControllerC13capturedImageSo7UIImageCSgvM",
+                "moduleName": "Valify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "capturedError",
+            "printedName": "capturedError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Valify20CameraViewControllerC13capturedErrors0F0_pSgvp",
+            "mangledName": "$s6Valify20CameraViewControllerC13capturedErrors0F0_pSgvp",
+            "moduleName": "Valify",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Valify20CameraViewControllerC13capturedErrors0F0_pSgvg",
+                "mangledName": "$s6Valify20CameraViewControllerC13capturedErrors0F0_pSgvg",
+                "moduleName": "Valify",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Valify20CameraViewControllerC13capturedErrors0F0_pSgvs",
+                "mangledName": "$s6Valify20CameraViewControllerC13capturedErrors0F0_pSgvs",
+                "moduleName": "Valify",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Valify20CameraViewControllerC13capturedErrors0F0_pSgvM",
+                "mangledName": "$s6Valify20CameraViewControllerC13capturedErrors0F0_pSgvM",
+                "moduleName": "Valify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Valify@objc(cs)CameraViewController(im)viewDidLoad",
+            "mangledName": "$s6Valify20CameraViewControllerC11viewDidLoadyyF",
+            "moduleName": "Valify",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Valify@objc(cs)CameraViewController(im)viewWillAppear:",
+            "mangledName": "$s6Valify20CameraViewControllerC14viewWillAppearyySbF",
+            "moduleName": "Valify",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupView",
+            "printedName": "setupView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Valify20CameraViewControllerC05setupC0yyF",
+            "mangledName": "$s6Valify20CameraViewControllerC05setupC0yyF",
+            "moduleName": "Valify",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setpPreviewView",
+            "printedName": "setpPreviewView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Valify20CameraViewControllerC011setpPreviewC0yyF",
+            "mangledName": "$s6Valify20CameraViewControllerC011setpPreviewC0yyF",
+            "moduleName": "Valify",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setpBoxView",
+            "printedName": "setpBoxView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Valify20CameraViewControllerC07setpBoxC0yyF",
+            "mangledName": "$s6Valify20CameraViewControllerC07setpBoxC0yyF",
+            "moduleName": "Valify",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setpCaptureButton",
+            "printedName": "setpCaptureButton()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Valify20CameraViewControllerC17setpCaptureButtonyyF",
+            "mangledName": "$s6Valify20CameraViewControllerC17setpCaptureButtonyyF",
+            "moduleName": "Valify",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleCapturingImage",
+            "printedName": "handleCapturingImage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Valify20CameraViewControllerC20handleCapturingImageyyF",
+            "mangledName": "$s6Valify20CameraViewControllerC20handleCapturingImageyyF",
+            "moduleName": "Valify",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureCameraController",
+            "printedName": "configureCameraController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Valify20CameraViewControllerC09configurebD0yyF",
+            "mangledName": "$s6Valify20CameraViewControllerC09configurebD0yyF",
+            "moduleName": "Valify",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CameraViewController",
+                "printedName": "Valify.CameraViewController",
+                "usr": "c:@M@Valify@objc(cs)CameraViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Valify@objc(cs)CameraViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s6Valify20CameraViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "Valify",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Valify.CameraViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CameraViewController",
+                    "printedName": "Valify.CameraViewController",
+                    "usr": "c:@M@Valify@objc(cs)CameraViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Valify@objc(cs)CameraViewController(im)initWithCoder:",
+            "mangledName": "$s6Valify20CameraViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "Valify",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Valify@objc(cs)CameraViewController",
+        "mangledName": "$s6Valify20CameraViewControllerC",
+        "moduleName": "Valify",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Valify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Valify"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Valify",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CameraNavigationViewController",
+        "printedName": "CameraNavigationViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onCompleted",
+            "printedName": "onCompleted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIImage?, Swift.Error?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage?, Swift.Error?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(UIKit.UIImage?, Swift.Error?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Error?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Valify30CameraNavigationViewControllerC11onCompletedySo7UIImageCSg_s5Error_pSgtcSgvp",
+            "mangledName": "$s6Valify30CameraNavigationViewControllerC11onCompletedySo7UIImageCSg_s5Error_pSgtcSgvp",
+            "moduleName": "Valify",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UIKit.UIImage?, Swift.Error?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UIImage?, Swift.Error?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(UIKit.UIImage?, Swift.Error?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "UIKit.UIImage?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "UIImage",
+                                    "printedName": "UIKit.UIImage",
+                                    "usr": "c:objc(cs)UIImage"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.Error?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Error",
+                                    "printedName": "Swift.Error",
+                                    "usr": "s:s5ErrorP"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Valify30CameraNavigationViewControllerC11onCompletedySo7UIImageCSg_s5Error_pSgtcSgvg",
+                "mangledName": "$s6Valify30CameraNavigationViewControllerC11onCompletedySo7UIImageCSg_s5Error_pSgtcSgvg",
+                "moduleName": "Valify",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UIKit.UIImage?, Swift.Error?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UIImage?, Swift.Error?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(UIKit.UIImage?, Swift.Error?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "UIKit.UIImage?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "UIImage",
+                                    "printedName": "UIKit.UIImage",
+                                    "usr": "c:objc(cs)UIImage"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.Error?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Error",
+                                    "printedName": "Swift.Error",
+                                    "usr": "s:s5ErrorP"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Valify30CameraNavigationViewControllerC11onCompletedySo7UIImageCSg_s5Error_pSgtcSgvs",
+                "mangledName": "$s6Valify30CameraNavigationViewControllerC11onCompletedySo7UIImageCSg_s5Error_pSgtcSgvs",
+                "moduleName": "Valify",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Valify30CameraNavigationViewControllerC11onCompletedySo7UIImageCSg_s5Error_pSgtcSgvM",
+                "mangledName": "$s6Valify30CameraNavigationViewControllerC11onCompletedySo7UIImageCSg_s5Error_pSgtcSgvM",
+                "moduleName": "Valify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Valify@objc(cs)CameraNavigationViewController(im)viewDidLoad",
+            "mangledName": "$s6Valify30CameraNavigationViewControllerC11viewDidLoadyyF",
+            "moduleName": "Valify",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "popViewController",
+            "printedName": "popViewController(animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Valify@objc(cs)CameraNavigationViewController(im)popViewControllerAnimated:",
+            "mangledName": "$s6Valify30CameraNavigationViewControllerC03popdE08animatedSo06UIViewE0CSgSb_tF",
+            "moduleName": "Valify",
+            "overriding": true,
+            "objc_name": "popViewControllerAnimated:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(navigationBarClass:toolbarClass:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CameraNavigationViewController",
+                "printedName": "Valify.CameraNavigationViewController",
+                "usr": "c:@M@Valify@objc(cs)CameraNavigationViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AnyObject.Type?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "AnyObject.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AnyObject.Type?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "AnyObject.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Valify@objc(cs)CameraNavigationViewController(im)initWithNavigationBarClass:toolbarClass:",
+            "mangledName": "$s6Valify30CameraNavigationViewControllerC18navigationBarClass07toolbarH0ACyXlXpSg_AFtcfc",
+            "moduleName": "Valify",
+            "overriding": true,
+            "implicit": true,
+            "intro_iOS": "5.0",
+            "objc_name": "initWithNavigationBarClass:toolbarClass:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "Available"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rootViewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CameraNavigationViewController",
+                "printedName": "Valify.CameraNavigationViewController",
+                "usr": "c:@M@Valify@objc(cs)CameraNavigationViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Valify@objc(cs)CameraNavigationViewController(im)initWithRootViewController:",
+            "mangledName": "$s6Valify30CameraNavigationViewControllerC04rootdE0ACSo06UIViewE0C_tcfc",
+            "moduleName": "Valify",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithRootViewController:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CameraNavigationViewController",
+                "printedName": "Valify.CameraNavigationViewController",
+                "usr": "c:@M@Valify@objc(cs)CameraNavigationViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Valify@objc(cs)CameraNavigationViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s6Valify30CameraNavigationViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "Valify",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Valify.CameraNavigationViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CameraNavigationViewController",
+                    "printedName": "Valify.CameraNavigationViewController",
+                    "usr": "c:@M@Valify@objc(cs)CameraNavigationViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Valify@objc(cs)CameraNavigationViewController(im)initWithCoder:",
+            "mangledName": "$s6Valify30CameraNavigationViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "Valify",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Valify@objc(cs)CameraNavigationViewController",
+        "mangledName": "$s6Valify30CameraNavigationViewControllerC",
+        "moduleName": "Valify",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UINavigationController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UINavigationController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/PhotoPreviewController\/PhotoPreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 288,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/PhotoPreviewController\/PhotoPreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 293,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/PhotoPreviewController\/PhotoPreviewViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 723,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/PhotoPreviewController\/PhotoPreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1115,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/PhotoPreviewController\/PhotoPreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1120,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/PhotoPreviewController\/PhotoPreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1731,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/PhotoPreviewController\/PhotoPreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1771,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/PhotoPreviewController\/PhotoPreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1811,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/PhotoPreviewController\/PhotoPreviewViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1864,
+      "length": 6,
+      "value": "\"done\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/PhotoPreviewController\/PhotoPreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1931,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/PhotoPreviewController\/PhotoPreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1953,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/PhotoPreviewController\/PhotoPreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1985,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/PhotoPreviewController\/PhotoPreviewViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2202,
+      "length": 8,
+      "value": "\"Retake\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/PhotoPreviewController\/PhotoPreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2315,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/PhotoPreviewController\/PhotoPreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2740,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/PhotoPreviewController\/PhotoPreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2897,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Utilities\/Button+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 189,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Utilities\/Button+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 218,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Utilities\/Button+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 247,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Utilities\/Button+Layout.swift",
+      "kind": "BooleanLiteral",
+      "offset": 430,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Utilities\/Button+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 583,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/CameraViewController\/CameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1117,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/CameraViewController\/CameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1122,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/CameraViewController\/CameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1546,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/CameraViewController\/CameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1586,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/CameraViewController\/CameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1654,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/CameraViewController\/CameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1706,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/CameraViewController\/CameraViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1755,
+      "length": 6,
+      "value": "\"done\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/CameraViewController\/CameraViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2318,
+      "length": 21,
+      "value": "\"Image capture error\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/CameraViewController\/CameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2825,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/CameraViewController\/CameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3216,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/CameraController.swift",
+      "kind": "StringLiteral",
+      "offset": 3519,
+      "length": 9,
+      "value": "\"prepare\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/CameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4577,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mac\/Desktop\/Valify\/Sources\/Valify\/Camera\/CameraNavigationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 379,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

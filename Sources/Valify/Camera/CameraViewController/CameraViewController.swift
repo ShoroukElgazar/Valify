@@ -17,6 +17,8 @@ public class CameraViewController: UIViewController {
     let myButton: UIButton = UIButton()
     public var capturedImage: UIImage?
     public var capturedError: Error?
+    let faceDetector = FaceDetector.faceDetector(options: FaceDetection.getOptions())
+     public var visionImage: UIImage?
     
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,14 +34,74 @@ public class CameraViewController: UIViewController {
         }
     }
     
-    private func setupView() {
+    
+    func process() {
+          weak var weakSelf = self
+          faceDetector.process(FaceDetection.createImage(image: capturedImage!)) { faces, error in
+            guard let strongSelf = weakSelf else {
+              print("Self is nil!")
+              return
+            }
+            guard error == nil, let faces = faces, !faces.isEmpty else {
+              // ...
+              return
+            }
+
+            // Faces detected
+            // ...
+              self.detectFace(faces: faces)
+          }
+      }
+      func detectFace(faces: [Face]) {
+          for face in faces {
+            let frame = face.frame
+            if face.hasHeadEulerAngleX {
+              let rotX = face.headEulerAngleX  // Head is rotated to the uptoward rotX degrees
+            }
+            if face.hasHeadEulerAngleY {
+              let rotY = face.headEulerAngleY  // Head is rotated to the right rotY degrees
+            }
+            if face.hasHeadEulerAngleZ {
+              let rotZ = face.headEulerAngleZ  // Head is tilted sideways rotZ degrees
+            }
+
+            // If landmark detection was enabled (mouth, ears, eyes, cheeks, and
+            // nose available):
+            if let leftEye = face.landmark(ofType: .leftEye) {
+              let leftEyePosition = leftEye.position
+            }
+
+            // If contour detection was enabled:
+            if let leftEyeContour = face.contour(ofType: .leftEye) {
+              let leftEyePoints = leftEyeContour.points
+            }
+            if let upperLipBottomContour = face.contour(ofType: .upperLipBottom) {
+              let upperLipBottomPoints = upperLipBottomContour.points
+            }
+
+            // If classification was enabled:
+            if face.hasSmilingProbability {
+              let smileProb = face.smilingProbability
+            }
+            if face.hasRightEyeOpenProbability {
+              let rightEyeOpenProb = face.rightEyeOpenProbability
+            }
+
+            // If face tracking was enabled:
+            if face.hasTrackingID {
+              let trackingId = face.trackingID
+            }
+          }
+      }
+    
+    public func setupView() {
        setpPreviewView()
         setpBoxView()
         setpCaptureButton()
     }
     
     
-    private func setpPreviewView() {
+    public func setpPreviewView() {
         previewView = UIView(frame:
         CGRect(x: 0,y: 0,width: UIScreen.main.bounds.size.width,
                 height: UIScreen.main.bounds.size.height))
@@ -47,12 +109,12 @@ public class CameraViewController: UIViewController {
         view.addSubview(previewView)
     }
     
-    private func setpBoxView() {
+    public func setpBoxView() {
         boxView = UIView(frame: self.view.frame)
         view.addSubview(boxView)
     }
     
-    private func setpCaptureButton() {
+    public func setpCaptureButton() {
         
         let buttonWidth: CGFloat = 150
         let buttonHeight: CGFloat = 40
@@ -72,7 +134,7 @@ public class CameraViewController: UIViewController {
     }
     
     
-   private func handleCapturingImage() {
+    public func handleCapturingImage() {
         cameraController.captureImage { image, error in
             guard let image = image else {
                 print(error ?? "Image capture error")
@@ -101,7 +163,7 @@ public class CameraViewController: UIViewController {
         }
     }
     
-    private  func configureCameraController() {
+    public  func configureCameraController() {
         cameraController.prepare {(error) in
             if let error = error {
                 print(error)

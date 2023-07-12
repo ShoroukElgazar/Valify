@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049E09F52A5F5F1000970D76 /* FaceDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E09F42A5F5F1000970D76 /* FaceDetection.swift */; };
 		04CDE7772A5C582900628EA0 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CDE7672A5C582900628EA0 /* CameraViewController.xib */; };
 		04CDE7792A5C582900628EA0 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDE7692A5C582900628EA0 /* CameraController.swift */; };
 		04CDE77A2A5C582900628EA0 /* CameraNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDE76A2A5C582900628EA0 /* CameraNavigationViewController.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049E09F42A5F5F1000970D76 /* FaceDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetection.swift; sourceTree = "<group>"; };
 		04CDE7672A5C582900628EA0 /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
 		04CDE7692A5C582900628EA0 /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		04CDE76A2A5C582900628EA0 /* CameraNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraNavigationViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				04CDE7DE2A5C889900628EA0 /* PhotoPreviewController */,
 				04CDE7692A5C582900628EA0 /* CameraController.swift */,
 				04CDE76A2A5C582900628EA0 /* CameraNavigationViewController.swift */,
+				049E09F42A5F5F1000970D76 /* FaceDetection.swift */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049E09F52A5F5F1000970D76 /* FaceDetection.swift in Sources */,
 				04CDE77B2A5C582900628EA0 /* PhotoPreviewViewController.swift in Sources */,
 				04CDE7DD2A5C882E00628EA0 /* Button+Layout.swift in Sources */,
 				04CDE77D2A5C582900628EA0 /* CameraViewController.swift in Sources */,
