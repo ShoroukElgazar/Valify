@@ -15,6 +15,8 @@
 		049E0A0C2A5F62F700970D76 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049E0A0B2A5F62F700970D76 /* GoogleUtilities.framework */; };
 		049E0A0F2A5F62FA00970D76 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049E0A0E2A5F62FA00970D76 /* GoogleToolboxForMac.framework */; };
 		049E0A122A5F630200970D76 /* GoogleDataTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049E0A112A5F630200970D76 /* GoogleDataTransport.framework */; };
+		049E0A142A5F673E00970D76 /* Pods_Valify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84DF6166119087868A05193 /* Pods_Valify.framework */; };
+		049E0A152A5F673E00970D76 /* Pods_Valify.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A84DF6166119087868A05193 /* Pods_Valify.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04CDE7772A5C582900628EA0 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CDE7672A5C582900628EA0 /* CameraViewController.xib */; };
 		04CDE7792A5C582900628EA0 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDE7692A5C582900628EA0 /* CameraController.swift */; };
 		04CDE77A2A5C582900628EA0 /* CameraNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDE76A2A5C582900628EA0 /* CameraNavigationViewController.swift */; };
@@ -25,7 +27,6 @@
 		04CDE7842A5C582900628EA0 /* Valify.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CDE7762A5C582900628EA0 /* Valify.h */; };
 		04CDE7DD2A5C882E00628EA0 /* Button+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDE7DC2A5C882E00628EA0 /* Button+Layout.swift */; };
 		04E675F92A5AE8DE008809A2 /* Valify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E675EE2A5AE8DE008809A2 /* Valify.framework */; };
-		2DEAFAF2E3B08F3834E826EB /* Pods_Valify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84DF6166119087868A05193 /* Pods_Valify.framework */; };
 		678C7B5D9ABC2EC6E07EA82C /* Pods_Valify_ValifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB85EFF2930A2826727422E /* Pods_Valify_ValifyTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,20 @@
 			remoteInfo = Valify;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		049E0A162A5F673E00970D76 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				049E0A152A5F673E00970D76 /* Pods_Valify.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		049E09F42A5F5F1000970D76 /* FaceDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetection.swift; sourceTree = "<group>"; };
@@ -73,13 +88,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				049E09F92A5F62E200970D76 /* FBLPromises.framework in Frameworks */,
+				049E0A142A5F673E00970D76 /* Pods_Valify.framework in Frameworks */,
 				049E0A032A5F62ED00970D76 /* nanopb.framework in Frameworks */,
 				049E0A092A5F62F400970D76 /* GoogleUtilitiesComponents.framework in Frameworks */,
 				049E0A0F2A5F62FA00970D76 /* GoogleToolboxForMac.framework in Frameworks */,
 				049E0A122A5F630200970D76 /* GoogleDataTransport.framework in Frameworks */,
 				049E0A062A5F62F100970D76 /* GTMSessionFetcher.framework in Frameworks */,
 				049E0A0C2A5F62F700970D76 /* GoogleUtilities.framework in Frameworks */,
-				2DEAFAF2E3B08F3834E826EB /* Pods_Valify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +237,7 @@
 				04E675EB2A5AE8DE008809A2 /* Frameworks */,
 				04E675EC2A5AE8DE008809A2 /* Resources */,
 				476C6B822C98B364C77E07E8 /* [CP] Copy Pods Resources */,
+				049E0A162A5F673E00970D76 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
