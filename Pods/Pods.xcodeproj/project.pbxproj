@@ -20,6 +20,7 @@
 				4A8A217A175E6954DBD9CF57FDA83DA5 /* PBXTargetDependency */,
 			);
 			name = MLKitCommon;
+			productName = MLKitCommon;
 		};
 		6D46A1F6123B14449A2A1FC04011860D /* GoogleMLKit */ = {
 			isa = PBXAggregateTarget;
@@ -31,6 +32,7 @@
 				8EB9184E7529E1E5153CF448D6B82B76 /* PBXTargetDependency */,
 			);
 			name = GoogleMLKit;
+			productName = GoogleMLKit;
 		};
 		8628FA5433C5F582EFA7209B6B4C8CD7 /* MLKitFaceDetection */ = {
 			isa = PBXAggregateTarget;
@@ -43,6 +45,7 @@
 				9A1CE1F24924D6973DF70DC073D4C0A9 /* PBXTargetDependency */,
 			);
 			name = MLKitFaceDetection;
+			productName = MLKitFaceDetection;
 		};
 		BE3B5914C1194353E85796E3EE3CE245 /* MLImage */ = {
 			isa = PBXAggregateTarget;
@@ -52,6 +55,7 @@
 			dependencies = (
 			);
 			name = MLImage;
+			productName = MLImage;
 		};
 		F1D55369E4C8976F396F83588DAC03C4 /* MLKitVision */ = {
 			isa = PBXAggregateTarget;
@@ -65,6 +69,7 @@
 				D64112A5169767A96034F85B090D810C /* PBXTargetDependency */,
 			);
 			name = MLKitVision;
+			productName = MLKitVision;
 		};
 /* End PBXAggregateTarget section */
 
@@ -607,7 +612,7 @@
 		056029A3CCC108822D74F87F8A8857E9 /* Pods-Valify */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Valify"; path = Pods_Valify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D65E6AD61B482067F84F6F1AE81EE6 /* GDTCOREventTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCOREventTransformer.h; path = GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCOREventTransformer.h; sourceTree = "<group>"; };
 		06968F82EC3A539F66B4C526A49E1768 /* GULCCComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULCCComponent.m; path = GoogleUtilitiesComponents/Sources/GULCCComponent.m; sourceTree = "<group>"; };
-		06FC5C9CF96D60C50FCD47D339C91951 /* nanopb */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08EF28DF704ABB14A68714B5FEE87546 /* PromisesObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromisesObjC-umbrella.h"; sourceTree = "<group>"; };
 		09CE94FA52A2728799C1B7AE57D468A7 /* GTMSessionFetcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMSessionFetcher.debug.xcconfig; sourceTree = "<group>"; };
 		0DE843B27ABB625D68AF2E5B66CC46E3 /* Pods-Valify-ValifyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Valify-ValifyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -619,7 +624,7 @@
 		19C0FDB6DA7B1F0260F7F249F4B4DB31 /* Pods-Valify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Valify.debug.xcconfig"; sourceTree = "<group>"; };
 		1A5EA699D540EE1CF9ECD1BB72292AA8 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
 		1C9A48160BCEDC92EED259D1F0A7A425 /* GDTCORClock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORClock.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORClock.m; sourceTree = "<group>"; };
-		1DD3D2729EC47C92C35BE52EE0938F14 /* cct.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cct.nanopb.c; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/cct.nanopb.c; sourceTree = "<group>"; };
+		1DD3D2729EC47C92C35BE52EE0938F14 /* cct.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = cct.nanopb.c; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/cct.nanopb.c; sourceTree = "<group>"; };
 		1DD5163F4096895810A2872E1A2125EE /* GDTCCTNanopbHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCCTNanopbHelpers.m; path = GoogleDataTransport/GDTCCTLibrary/GDTCCTNanopbHelpers.m; sourceTree = "<group>"; };
 		1E24699A8BABE813A71C5A1727A736DA /* GDTCORRegistrar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORRegistrar.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORRegistrar.m; sourceTree = "<group>"; };
 		1FD94D0D4D3A68521A67CEC5D8C6CEF8 /* MLImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MLImage.framework; path = Frameworks/MLImage.framework; sourceTree = "<group>"; };
@@ -629,13 +634,13 @@
 		21B4775565600AB9BEAA256FBE6C386E /* GDTCORStorageEventSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORStorageEventSelector.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORStorageEventSelector.m; sourceTree = "<group>"; };
 		24085631C43FAE38DEC0F4226343F8B2 /* GULNetworkInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetworkInfo.m; path = GoogleUtilities/Environment/NetworkInfo/GULNetworkInfo.m; sourceTree = "<group>"; };
 		2461FA3EA57B2119C66C005396F2B25E /* GULHeartbeatDateStorageUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULHeartbeatDateStorageUserDefaults.h; path = GoogleUtilities/Environment/Public/GoogleUtilities/GULHeartbeatDateStorageUserDefaults.h; sourceTree = "<group>"; };
-		251C6319AD50CB50F18D50CBF727F8B2 /* GoogleToolboxForMac */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		251C6319AD50CB50F18D50CBF727F8B2 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2541921B5895F584D2DBB033E5C3EB17 /* MLKitFaceDetection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLKitFaceDetection.debug.xcconfig; sourceTree = "<group>"; };
 		25562CF245366B691712E2EF19030989 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
-		25AACF008E43DC376BBC9AD8F9365A13 /* fssd_100_8bit_gray_v1.tflite */ = {isa = PBXFileReference; includeInIndex = 1; name = fssd_100_8bit_gray_v1.tflite; path = Resources/GoogleMVFaceDetectorResources/fssd_100_8bit_gray_v1.tflite; sourceTree = "<group>"; };
+		25AACF008E43DC376BBC9AD8F9365A13 /* fssd_100_8bit_gray_v1.tflite */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = fssd_100_8bit_gray_v1.tflite; path = Resources/GoogleMVFaceDetectorResources/fssd_100_8bit_gray_v1.tflite; sourceTree = "<group>"; };
 		25F2A4BA4D348F25928549ABA126CE71 /* GDTCORAssert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORAssert.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORAssert.m; sourceTree = "<group>"; };
 		288674BE69D1695452AE3E5C6D968101 /* PromisesObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromisesObjC.release.xcconfig; sourceTree = "<group>"; };
-		28A6DB952CEA79E3902D41748273A364 /* GoogleUtilitiesComponents */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleUtilitiesComponents; path = GoogleUtilitiesComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A6DB952CEA79E3902D41748273A364 /* GoogleUtilitiesComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleUtilitiesComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2937FCD50F9550C023685A7A583A7F03 /* GDTCORReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORReachability.h; path = GoogleDataTransport/GDTCORLibrary/Internal/GDTCORReachability.h; sourceTree = "<group>"; };
 		2B2F372A0D606B8F8C469EAA54DB542D /* FBLPromise+Do.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Do.m"; path = "Sources/FBLPromises/FBLPromise+Do.m"; sourceTree = "<group>"; };
 		2B464B36F56AD11468DB3E48A61668FE /* MLKitCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MLKitCommon.framework; path = Frameworks/MLKitCommon.framework; sourceTree = "<group>"; };
@@ -650,17 +655,17 @@
 		31FF3DB38B1EEA9D95FFE97FC807A331 /* GULURLSessionDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULURLSessionDataResponse.h; path = GoogleUtilities/Environment/Public/GoogleUtilities/GULURLSessionDataResponse.h; sourceTree = "<group>"; };
 		32050F93DB1AB04786D94F1E49BF0169 /* GULSecureCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULSecureCoding.h; path = GoogleUtilities/Environment/Public/GoogleUtilities/GULSecureCoding.h; sourceTree = "<group>"; };
 		330861CC1CF4793576AE70DF2210C4BB /* FBLPromise+Delay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Delay.h"; path = "Sources/FBLPromises/include/FBLPromise+Delay.h"; sourceTree = "<group>"; };
-		3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromisesObjC; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3451B27E364A6962EDEA689685CC89EE /* BCLjoy_200.emd */ = {isa = PBXFileReference; includeInIndex = 1; name = BCLjoy_200.emd; path = Resources/GoogleMVFaceDetectorResources/BCLjoy_200.emd; sourceTree = "<group>"; };
+		3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3451B27E364A6962EDEA689685CC89EE /* BCLjoy_200.emd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = BCLjoy_200.emd; path = Resources/GoogleMVFaceDetectorResources/BCLjoy_200.emd; sourceTree = "<group>"; };
 		35162D964B01D795806A7BC26FD582C4 /* FBLPromise+Validate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Validate.m"; path = "Sources/FBLPromises/FBLPromise+Validate.m"; sourceTree = "<group>"; };
 		351E55A75075B71133A4BCEA69B0B0C3 /* GDTCOREvent+GDTCCTSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GDTCOREvent+GDTCCTSupport.m"; path = "GoogleDataTransport/GDTCCTLibrary/GDTCOREvent+GDTCCTSupport.m"; sourceTree = "<group>"; };
 		35B5D86BCC57BB744DBE9E0513A1960D /* FBLPromise+Reduce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Reduce.m"; path = "Sources/FBLPromises/FBLPromise+Reduce.m"; sourceTree = "<group>"; };
 		36A87A5FAD4674BF4BB6451D9159C018 /* GULKeychainStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULKeychainStorage.m; path = GoogleUtilities/Environment/SecureStorage/GULKeychainStorage.m; sourceTree = "<group>"; };
 		388DEFE93A877802F111B0F7B0CE2B17 /* ResourceBundle-GoogleMVFaceDetectorResources-MLKitFaceDetection-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GoogleMVFaceDetectorResources-MLKitFaceDetection-Info.plist"; sourceTree = "<group>"; };
 		38ABA4B23CFE898102D33931D192C8AD /* GDTCORMetrics+GDTCCTSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GDTCORMetrics+GDTCCTSupport.h"; path = "GoogleDataTransport/GDTCCTLibrary/Private/GDTCORMetrics+GDTCCTSupport.h"; sourceTree = "<group>"; };
-		3BD592BBF6F1BC20011A1A72BC7EC51A /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
+		3BD592BBF6F1BC20011A1A72BC7EC51A /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_encode.c; sourceTree = "<group>"; };
 		3C1D8127BD0DE6D8E7EBF1286689A3CB /* Pods-Valify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Valify.release.xcconfig"; sourceTree = "<group>"; };
-		3C7F179787E1F2134ED3C7477B19ACE7 /* client_metrics.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; name = client_metrics.nanopb.c; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/client_metrics.nanopb.c; sourceTree = "<group>"; };
+		3C7F179787E1F2134ED3C7477B19ACE7 /* client_metrics.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = client_metrics.nanopb.c; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/client_metrics.nanopb.c; sourceTree = "<group>"; };
 		3D3EF30E9635DA8EEBC71865664A3D23 /* GDTCORTargets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORTargets.h; path = GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORTargets.h; sourceTree = "<group>"; };
 		3EB6CF57C5B1C606E0549C2FA9D73BF1 /* FBLPromiseError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromiseError.h; path = Sources/FBLPromises/include/FBLPromiseError.h; sourceTree = "<group>"; };
 		400E806EEC894DF0A593FE258560629E /* GULLoggerLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLoggerLevel.h; path = GoogleUtilities/Logger/Public/GoogleUtilities/GULLoggerLevel.h; sourceTree = "<group>"; };
@@ -708,7 +713,7 @@
 		6344CE8C320C2B1519FB9B446554A957 /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
 		63A6604D48386CD8F6A639A2A3817F6D /* GDTCCTUploader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCCTUploader.h; path = GoogleDataTransport/GDTCCTLibrary/Private/GDTCCTUploader.h; sourceTree = "<group>"; };
 		63FB1DCD295AE49D679FD72CA2CCE6B4 /* GTMLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMLogger.m; path = Foundation/GTMLogger.m; sourceTree = "<group>"; };
-		6410F0E60B11D8E5B88A2EFEC9CA5939 /* MFT_fssd_accgray.pb */ = {isa = PBXFileReference; includeInIndex = 1; name = MFT_fssd_accgray.pb; path = Resources/GoogleMVFaceDetectorResources/MFT_fssd_accgray.pb; sourceTree = "<group>"; };
+		6410F0E60B11D8E5B88A2EFEC9CA5939 /* MFT_fssd_accgray.pb */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = MFT_fssd_accgray.pb; path = Resources/GoogleMVFaceDetectorResources/MFT_fssd_accgray.pb; sourceTree = "<group>"; };
 		64D3A7562D39374F3131EBA2EB05A14D /* FBLPromise+Delay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Delay.m"; path = "Sources/FBLPromises/FBLPromise+Delay.m"; sourceTree = "<group>"; };
 		65A623BA5FA8EFD27A426BE38B2AD4B7 /* GoogleUtilitiesComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GoogleUtilitiesComponents-Info.plist"; sourceTree = "<group>"; };
 		66D5244512246994BA5E63FEA5EBB3F5 /* FBLPromiseError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBLPromiseError.m; path = Sources/FBLPromises/FBLPromiseError.m; sourceTree = "<group>"; };
@@ -716,7 +721,7 @@
 		685F7C3C90E37902142D6D1F2673A725 /* GDTCORMetricsMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORMetricsMetadata.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORMetricsMetadata.m; sourceTree = "<group>"; };
 		69405AD13A986200A32C1252419A9376 /* MLImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLImage.debug.xcconfig; sourceTree = "<group>"; };
 		69B7FA323D0136E4FBE6AC35B0341220 /* Pods-Valify-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Valify-Info.plist"; sourceTree = "<group>"; };
-		6BBB6C18B2CD3B5774C59C0EB3065D02 /* MLKitFaceDetection-GoogleMVFaceDetectorResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MLKitFaceDetection-GoogleMVFaceDetectorResources"; path = GoogleMVFaceDetectorResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBB6C18B2CD3B5774C59C0EB3065D02 /* GoogleMVFaceDetectorResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMVFaceDetectorResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9A834F8E5BCC6B323690FF555B9589 /* GTMLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMLogger.h; path = Foundation/GTMLogger.h; sourceTree = "<group>"; };
 		6DCC0DF3F2AA1E19D4CE1DE84F0731DF /* Pods-Valify-ValifyTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Valify-ValifyTests"; path = Pods_Valify_ValifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC539AE7BDEBF84759A0B438CD05B3D /* GDTCCTCompressionHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCCTCompressionHelper.h; path = GoogleDataTransport/GDTCCTLibrary/Private/GDTCCTCompressionHelper.h; sourceTree = "<group>"; };
@@ -726,7 +731,7 @@
 		725E0F0F93ED191F4C4629B2DEB00D82 /* GULHeartbeatDateStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULHeartbeatDateStorage.m; path = GoogleUtilities/Environment/GULHeartbeatDateStorage.m; sourceTree = "<group>"; };
 		7525AA41A7CBDA795FDD8D17AB038EEC /* GDTCORLifecycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORLifecycle.h; path = GoogleDataTransport/GDTCORLibrary/Internal/GDTCORLifecycle.h; sourceTree = "<group>"; };
 		7899B0F6FA4E4A2F6DA20F09F8151CF1 /* GDTCORLogSourceMetrics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORLogSourceMetrics.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORLogSourceMetrics.h; sourceTree = "<group>"; };
-		78A669826BC643A5FCFE334ABEDC8E2F /* fssd_100_8bit_v1.tflite */ = {isa = PBXFileReference; includeInIndex = 1; name = fssd_100_8bit_v1.tflite; path = Resources/GoogleMVFaceDetectorResources/fssd_100_8bit_v1.tflite; sourceTree = "<group>"; };
+		78A669826BC643A5FCFE334ABEDC8E2F /* fssd_100_8bit_v1.tflite */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = fssd_100_8bit_v1.tflite; path = Resources/GoogleMVFaceDetectorResources/fssd_100_8bit_v1.tflite; sourceTree = "<group>"; };
 		790EB112CE9866247CBFC5F8A8188078 /* GoogleDataTransport.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleDataTransport.modulemap; sourceTree = "<group>"; };
 		795AD3CC8336493ACDA46A3449078079 /* GDTCORPlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORPlatform.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORPlatform.m; sourceTree = "<group>"; };
 		797430FE1BC0CE24129FE27DF4C59EB5 /* Pods-Valify-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Valify-umbrella.h"; sourceTree = "<group>"; };
@@ -743,10 +748,10 @@
 		8309233863FC5BF42590201130251426 /* GDTCCTUploader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCCTUploader.m; path = GoogleDataTransport/GDTCCTLibrary/GDTCCTUploader.m; sourceTree = "<group>"; };
 		83E89D37016D6FB75E4395D4CE16B1C6 /* GULCCComponentContainerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULCCComponentContainerInternal.h; path = GoogleUtilitiesComponents/Sources/Private/GULCCComponentContainerInternal.h; sourceTree = "<group>"; };
 		84145CFE3EC9A291C8AA8FBB27167647 /* PromisesObjC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PromisesObjC-Info.plist"; sourceTree = "<group>"; };
-		856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleDataTransport; path = GoogleDataTransport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleDataTransport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		861BDC362E018D9F38514DA93208CC0A /* FBLPromise+Catch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Catch.m"; path = "Sources/FBLPromises/FBLPromise+Catch.m"; sourceTree = "<group>"; };
 		867616420BD2232E266B84C26153F9F6 /* GTMSessionFetcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-umbrella.h"; sourceTree = "<group>"; };
-		86D0ACE522BFE3DEF6B1E76F4B2E4FF4 /* LMprec_600.emd */ = {isa = PBXFileReference; includeInIndex = 1; name = LMprec_600.emd; path = Resources/GoogleMVFaceDetectorResources/LMprec_600.emd; sourceTree = "<group>"; };
+		86D0ACE522BFE3DEF6B1E76F4B2E4FF4 /* LMprec_600.emd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = LMprec_600.emd; path = Resources/GoogleMVFaceDetectorResources/LMprec_600.emd; sourceTree = "<group>"; };
 		88CC2445609FE6D07E64C9C749EFF842 /* client_metrics.nanopb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = client_metrics.nanopb.h; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/client_metrics.nanopb.h; sourceTree = "<group>"; };
 		8AC4DDACDB44E698A69E14BADC64C587 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		8B6450077C5C87D0BF17B999C1A22AF6 /* FBLPromisePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromisePrivate.h; path = Sources/FBLPromises/include/FBLPromisePrivate.h; sourceTree = "<group>"; };
@@ -760,12 +765,12 @@
 		96EFDC323115783418C8DA462573418F /* GoogleDataTransport-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleDataTransport-umbrella.h"; sourceTree = "<group>"; };
 		97A4170D38AA2FEA128D7CAEC74CD8E5 /* GoogleUtilitiesComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleUtilitiesComponents.modulemap; sourceTree = "<group>"; };
 		985CC0CF5C72F26AE18808D5C07FD299 /* GTMSessionFetcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMSessionFetcher.release.xcconfig; sourceTree = "<group>"; };
-		995B95B8700570B19ED13B4E258B54AE /* fssd_25_8bit_v1.tflite */ = {isa = PBXFileReference; includeInIndex = 1; name = fssd_25_8bit_v1.tflite; path = Resources/GoogleMVFaceDetectorResources/fssd_25_8bit_v1.tflite; sourceTree = "<group>"; };
+		995B95B8700570B19ED13B4E258B54AE /* fssd_25_8bit_v1.tflite */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = fssd_25_8bit_v1.tflite; path = Resources/GoogleMVFaceDetectorResources/fssd_25_8bit_v1.tflite; sourceTree = "<group>"; };
 		9A58FA204AADE23B88C20729CCF7586D /* GDTCORMetricsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORMetricsController.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORMetricsController.h; sourceTree = "<group>"; };
 		9B85EE26D13D0EAD164C137C78C1CB1E /* GTMSessionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcher.m; path = Sources/Core/GTMSessionFetcher.m; sourceTree = "<group>"; };
 		9B9D638FE9EC7DC66EB82E7CABF853F8 /* FBLPromise+Await.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Await.h"; path = "Sources/FBLPromises/include/FBLPromise+Await.h"; sourceTree = "<group>"; };
 		9D6196EBC087FDFE585BCCC2BCEC7EB7 /* GTMNSString+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+URLArguments.h"; path = "Foundation/GTMNSString+URLArguments.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E1D2E9B328DAB6F28B3D5A047EF37FA /* GDTCORUploadBatch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORUploadBatch.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORUploadBatch.m; sourceTree = "<group>"; };
 		9F262F1D7FEC2229424CD816450022FA /* GoogleToolboxForMac-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GoogleToolboxForMac-Info.plist"; sourceTree = "<group>"; };
 		A245A177A82507C036996892A1A97F4D /* FBLPromise+Recover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Recover.m"; path = "Sources/FBLPromises/FBLPromise+Recover.m"; sourceTree = "<group>"; };
@@ -774,7 +779,7 @@
 		A62232A08DC2E63C34E31C09C44B727E /* FBLPromise+Reduce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Reduce.h"; path = "Sources/FBLPromises/include/FBLPromise+Reduce.h"; sourceTree = "<group>"; };
 		A95FAE323FFC6385267EF1EDABBDDF23 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		A986AC3B362982C9586ADEBE49381424 /* GDTCOREvent+GDTMetricsSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GDTCOREvent+GDTMetricsSupport.h"; path = "GoogleDataTransport/GDTCCTLibrary/Private/GDTCOREvent+GDTMetricsSupport.h"; sourceTree = "<group>"; };
-		A9E0CB62F3C98C9585CCAB61D85CCE98 /* BCLrighteyeclosed_200.emd */ = {isa = PBXFileReference; includeInIndex = 1; name = BCLrighteyeclosed_200.emd; path = Resources/GoogleMVFaceDetectorResources/BCLrighteyeclosed_200.emd; sourceTree = "<group>"; };
+		A9E0CB62F3C98C9585CCAB61D85CCE98 /* BCLrighteyeclosed_200.emd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = BCLrighteyeclosed_200.emd; path = Resources/GoogleMVFaceDetectorResources/BCLrighteyeclosed_200.emd; sourceTree = "<group>"; };
 		AC38BEB5B11997F1DB798211C11DD637 /* GoogleUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleUtilities-dummy.m"; sourceTree = "<group>"; };
 		AF77876356F437436689B895070D527C /* Pods-Valify-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Valify-resources.sh"; sourceTree = "<group>"; };
 		B163DD97473E28B37DC2EC76514753F4 /* MLImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLImage.release.xcconfig; sourceTree = "<group>"; };
@@ -783,15 +788,15 @@
 		B2C7FCFB258BC59F8D05CBF0EB6C8311 /* GDTCORUploadCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORUploadCoordinator.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORUploadCoordinator.h; sourceTree = "<group>"; };
 		B3206A671D6CA1756BA3BA48ECC28472 /* GoogleDataTransport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleDataTransport.release.xcconfig; sourceTree = "<group>"; };
 		B3775504B57CA894C7BE598B1F5FDF72 /* GoogleUtilitiesComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUtilitiesComponents.debug.xcconfig; sourceTree = "<group>"; };
-		B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleUtilities; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B754B220C0ACD02E19DDE1AA375C69CF /* MFT_fssd_fastgray.pb */ = {isa = PBXFileReference; includeInIndex = 1; name = MFT_fssd_fastgray.pb; path = Resources/GoogleMVFaceDetectorResources/MFT_fssd_fastgray.pb; sourceTree = "<group>"; };
+		B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B754B220C0ACD02E19DDE1AA375C69CF /* MFT_fssd_fastgray.pb */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = MFT_fssd_fastgray.pb; path = Resources/GoogleMVFaceDetectorResources/MFT_fssd_fastgray.pb; sourceTree = "<group>"; };
 		B778C233EB3DC1DBE55E40DB323FAEC7 /* GDTCORFlatFileStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORFlatFileStorage.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORFlatFileStorage.m; sourceTree = "<group>"; };
 		B7923A4990F82453AE63A230470E4F7E /* PromisesObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromisesObjC-dummy.m"; sourceTree = "<group>"; };
 		BA8EB69FF35F297F88EBAE3289B4D04D /* FBLPromise+Await.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Await.m"; path = "Sources/FBLPromises/FBLPromise+Await.m"; sourceTree = "<group>"; };
 		BEE31D5D50918793972EF33BE0FDA49D /* GDTCORTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORTransformer.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORTransformer.h; sourceTree = "<group>"; };
 		BFB567B17E30FCAED817D9E770A11563 /* GULAppEnvironmentUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULAppEnvironmentUtil.h; path = GoogleUtilities/Environment/Public/GoogleUtilities/GULAppEnvironmentUtil.h; sourceTree = "<group>"; };
 		C01D2EA1735DCF908997EB61BF7D0896 /* GULCCComponentContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULCCComponentContainer.m; path = GoogleUtilitiesComponents/Sources/GULCCComponentContainer.m; sourceTree = "<group>"; };
-		C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMSessionFetcher; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C293E629007793185AA5EAFB53CF1187 /* MLKitCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLKitCommon.debug.xcconfig; sourceTree = "<group>"; };
 		C2D59EBB64C92065272CC4C906E8BD84 /* PromisesObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromisesObjC.debug.xcconfig; sourceTree = "<group>"; };
 		C318BA2EC707C6117220EDEE2DFDA438 /* Pods-Valify-ValifyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Valify-ValifyTests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -806,12 +811,12 @@
 		C7ADDF04C13C9679B7DD9FD8FFC9A217 /* MLKitFaceDetection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MLKitFaceDetection.framework; path = Frameworks/MLKitFaceDetection.framework; sourceTree = "<group>"; };
 		C82D07A1D48D2614B5A6A5398E08167E /* GDTCORLifecycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORLifecycle.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORLifecycle.m; sourceTree = "<group>"; };
 		CC087351B3E3834A7B91BAE7F409D71B /* GDTCORFlatFileStorage+Promises.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GDTCORFlatFileStorage+Promises.m"; path = "GoogleDataTransport/GDTCORLibrary/GDTCORFlatFileStorage+Promises.m"; sourceTree = "<group>"; };
-		CC59C425C1977771BE5347B4BDEC14A8 /* fssd_25_8bit_gray_v1.tflite */ = {isa = PBXFileReference; includeInIndex = 1; name = fssd_25_8bit_gray_v1.tflite; path = Resources/GoogleMVFaceDetectorResources/fssd_25_8bit_gray_v1.tflite; sourceTree = "<group>"; };
+		CC59C425C1977771BE5347B4BDEC14A8 /* fssd_25_8bit_gray_v1.tflite */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = fssd_25_8bit_gray_v1.tflite; path = Resources/GoogleMVFaceDetectorResources/fssd_25_8bit_gray_v1.tflite; sourceTree = "<group>"; };
 		CD4F98BD61CC804BFBE0163CB489D2AC /* FBLPromise+Retry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Retry.m"; path = "Sources/FBLPromises/FBLPromise+Retry.m"; sourceTree = "<group>"; };
 		CFF75F4534C259343B5D47E9C787DAE9 /* GDTCORDirectorySizeTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORDirectorySizeTracker.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORDirectorySizeTracker.m; sourceTree = "<group>"; };
 		D041711F90321FFBCF231AF930AACA78 /* GDTCORConsoleLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORConsoleLogger.h; path = GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORConsoleLogger.h; sourceTree = "<group>"; };
 		D0602BA52745321B6461BA1037959E30 /* FBLPromise+Race.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Race.m"; path = "Sources/FBLPromises/FBLPromise+Race.m"; sourceTree = "<group>"; };
-		D2560C33E682758ECCC9FF83D91ECD61 /* BCLlefteyeclosed_200.emd */ = {isa = PBXFileReference; includeInIndex = 1; name = BCLlefteyeclosed_200.emd; path = Resources/GoogleMVFaceDetectorResources/BCLlefteyeclosed_200.emd; sourceTree = "<group>"; };
+		D2560C33E682758ECCC9FF83D91ECD61 /* BCLlefteyeclosed_200.emd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = BCLlefteyeclosed_200.emd; path = Resources/GoogleMVFaceDetectorResources/BCLlefteyeclosed_200.emd; sourceTree = "<group>"; };
 		D2616A4C36AB8AF4C42036817EC90922 /* GDTCOREndpoints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCOREndpoints.m; path = GoogleDataTransport/GDTCORLibrary/GDTCOREndpoints.m; sourceTree = "<group>"; };
 		D28FE1E1E0334D686809413E20741A2A /* GDTCORRegistrar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORRegistrar.h; path = GoogleDataTransport/GDTCORLibrary/Internal/GDTCORRegistrar.h; sourceTree = "<group>"; };
 		D2E4542E5F46762A18525EB32729DEE7 /* nanopb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.release.xcconfig; sourceTree = "<group>"; };
@@ -840,7 +845,7 @@
 		E75CF7A652A1A547306AE443FBC0C0E3 /* FBLPromise+Then.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Then.m"; path = "Sources/FBLPromises/FBLPromise+Then.m"; sourceTree = "<group>"; };
 		E787DF9A1A529E1AFD2104A8B3DF7769 /* MLKitVision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MLKitVision.framework; path = Frameworks/MLKitVision.framework; sourceTree = "<group>"; };
 		E7B9BFE06B2B788C56E4A30928B2F949 /* FBLPromise+Catch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Catch.h"; path = "Sources/FBLPromises/include/FBLPromise+Catch.h"; sourceTree = "<group>"; };
-		E7FE7B51D7B33BF4C6B2D3F0E9623F4F /* contours.tfl */ = {isa = PBXFileReference; includeInIndex = 1; name = contours.tfl; path = Resources/GoogleMVFaceDetectorResources/contours.tfl; sourceTree = "<group>"; };
+		E7FE7B51D7B33BF4C6B2D3F0E9623F4F /* contours.tfl */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = contours.tfl; path = Resources/GoogleMVFaceDetectorResources/contours.tfl; sourceTree = "<group>"; };
 		E883555B7D7521023E6D0E5819F85B2D /* GDTCORFlatFileStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORFlatFileStorage.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORFlatFileStorage.h; sourceTree = "<group>"; };
 		E98B95B589ACBA3748D69BBDCD8918AA /* GDTCORUploadCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORUploadCoordinator.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORUploadCoordinator.m; sourceTree = "<group>"; };
 		E9AA67C1BEBF7779A94C2BF09C71512A /* FBLPromise+Always.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Always.m"; path = "Sources/FBLPromises/FBLPromise+Always.m"; sourceTree = "<group>"; };
@@ -855,7 +860,7 @@
 		F0AA7F83826EFF5CEC3EE97E6414B665 /* GDTCCTNanopbHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCCTNanopbHelpers.h; path = GoogleDataTransport/GDTCCTLibrary/Private/GDTCCTNanopbHelpers.h; sourceTree = "<group>"; };
 		F1B82DA53BE9515759D5F3CC8F5B5312 /* cct.nanopb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cct.nanopb.h; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/cct.nanopb.h; sourceTree = "<group>"; };
 		F2137751A7EB25EA8842F0ACFB9D1074 /* FBLPromise+Then.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Then.h"; path = "Sources/FBLPromises/include/FBLPromise+Then.h"; sourceTree = "<group>"; };
-		F223B3EA2549F0C5A903306B5D383CAF /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
+		F223B3EA2549F0C5A903306B5D383CAF /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_decode.c; sourceTree = "<group>"; };
 		F27EC700CD783ACC9601FBBE91475142 /* GDTCORMetricsControllerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORMetricsControllerProtocol.h; path = GoogleDataTransport/GDTCORLibrary/Internal/GDTCORMetricsControllerProtocol.h; sourceTree = "<group>"; };
 		F2BEAF20EB8E291F30C53C071FA01A9B /* Pods-Valify-ValifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Valify-ValifyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F43567682F1DD00A7BBA5F98A67E9338 /* GDTCORUploadBatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORUploadBatch.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORUploadBatch.h; sourceTree = "<group>"; };
@@ -873,12 +878,12 @@
 		FA483FFE090EE8191377DFA3C0DFBAF8 /* GDTCORStorageMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORStorageMetadata.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORStorageMetadata.h; sourceTree = "<group>"; };
 		FA5C36218E1907396866295A5F5D869F /* Pods-Valify-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Valify-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FB1EF1EE36DD66817747EC10EE05274E /* Pods-Valify-ValifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Valify-ValifyTests.release.xcconfig"; sourceTree = "<group>"; };
-		FBA2B83057E788C79D78FF977C0C31A0 /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
+		FBA2B83057E788C79D78FF977C0C31A0 /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_common.c; sourceTree = "<group>"; };
 		FBD60F574DF0EAE8163E56F08C863B9B /* GDTCORMetrics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORMetrics.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORMetrics.m; sourceTree = "<group>"; };
 		FCCD04758936B4515CDB2FBB7ED6E0B6 /* FBLPromise+Do.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Do.h"; path = "Sources/FBLPromises/include/FBLPromise+Do.h"; sourceTree = "<group>"; };
 		FD26A2420CA4C109E7C74CFA4C24ECEA /* GoogleUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUtilities.debug.xcconfig; sourceTree = "<group>"; };
 		FD43F73C8A2321B93C13A97B032FA4CF /* FBLPromise+Validate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Validate.h"; path = "Sources/FBLPromises/include/FBLPromise+Validate.h"; sourceTree = "<group>"; };
-		FE2AE6CE9266D1F1687178E62B44A324 /* blazeface.tfl */ = {isa = PBXFileReference; includeInIndex = 1; name = blazeface.tfl; path = Resources/GoogleMVFaceDetectorResources/blazeface.tfl; sourceTree = "<group>"; };
+		FE2AE6CE9266D1F1687178E62B44A324 /* blazeface.tfl */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = blazeface.tfl; path = Resources/GoogleMVFaceDetectorResources/blazeface.tfl; sourceTree = "<group>"; };
 		FE9E585A065E25E301AC492E80B83112 /* pb_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_common.h; sourceTree = "<group>"; };
 		FF321A645C4F64191DE402DB20F38E46 /* NSURLSession+GULPromises.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSession+GULPromises.h"; path = "GoogleUtilities/Environment/Public/GoogleUtilities/NSURLSession+GULPromises.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -987,7 +992,6 @@
 				CE15AFA7423D4C5BECE459615D3BCF8F /* Resources */,
 				5B71BA011BEEACA9D65A94A438357627 /* Support Files */,
 			);
-			name = MLKitFaceDetection;
 			path = MLKitFaceDetection;
 			sourceTree = "<group>";
 		};
@@ -1100,7 +1104,6 @@
 				607032732CAAF7962801D964EDB9AC10 /* GoogleDataTransport.h */,
 				57B9F61E4E432BCA39C5E0CE74146C72 /* Support Files */,
 			);
-			name = GoogleDataTransport;
 			path = GoogleDataTransport;
 			sourceTree = "<group>";
 		};
@@ -1154,7 +1157,6 @@
 				17E1806BD6EFBBF7513292FC92E5A93D /* NSString+URLArguments */,
 				D3C243F537C34C06DEBFDD3CAD712DDB /* Support Files */,
 			);
-			name = GoogleToolboxForMac;
 			path = GoogleToolboxForMac;
 			sourceTree = "<group>";
 		};
@@ -1252,7 +1254,6 @@
 				476B8D67F08BA1E915BD7DF949DB0132 /* GULCCLibrary.h */,
 				AD4C586ECB1AF8448A3D600742F052F4 /* Support Files */,
 			);
-			name = GoogleUtilitiesComponents;
 			path = GoogleUtilitiesComponents;
 			sourceTree = "<group>";
 		};
@@ -1288,7 +1289,6 @@
 				8BABA8A4C069CBA70EE52D89A420A8D8 /* Frameworks */,
 				5A43687295A141F57E55B1F8EC2647E0 /* Support Files */,
 			);
-			name = MLKitCommon;
 			path = MLKitCommon;
 			sourceTree = "<group>";
 		};
@@ -1298,7 +1298,6 @@
 				928E2C77773ADE1E564E0281655B6D04 /* Frameworks */,
 				52F59F52319DAA6650866FBD6CB5E035 /* Support Files */,
 			);
-			name = MLKitVision;
 			path = MLKitVision;
 			sourceTree = "<group>";
 		};
@@ -1308,7 +1307,6 @@
 				CC6EE68C8C29604448492F2C4412E27D /* Core */,
 				3F3EF789DC738E3047E7CAC39FAC7DBC /* Support Files */,
 			);
-			name = GTMSessionFetcher;
 			path = GTMSessionFetcher;
 			sourceTree = "<group>";
 		};
@@ -1326,7 +1324,6 @@
 				D4DDFF484B6C7947A20308A3BD776F45 /* Frameworks */,
 				8F26F776A521B40E8E3E5D4D7CAC4D0E /* Support Files */,
 			);
-			name = MLImage;
 			path = MLImage;
 			sourceTree = "<group>";
 		};
@@ -1353,7 +1350,6 @@
 				B4F9E9DB43646B531894E46F76ACF0DF /* Support Files */,
 				1FE29CD11C5D2E1499CD32B7249DE8C8 /* UserDefaults */,
 			);
-			name = GoogleUtilities;
 			path = GoogleUtilities;
 			sourceTree = "<group>";
 		};
@@ -1420,16 +1416,16 @@
 		A025412E26B2141B3410D57105698E6C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport */,
-				251C6319AD50CB50F18D50CBF727F8B2 /* GoogleToolboxForMac */,
-				B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities */,
-				28A6DB952CEA79E3902D41748273A364 /* GoogleUtilitiesComponents */,
-				C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher */,
-				6BBB6C18B2CD3B5774C59C0EB3065D02 /* MLKitFaceDetection-GoogleMVFaceDetectorResources */,
-				06FC5C9CF96D60C50FCD47D339C91951 /* nanopb */,
+				856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport.framework */,
+				251C6319AD50CB50F18D50CBF727F8B2 /* GoogleToolboxForMac.framework */,
+				B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */,
+				28A6DB952CEA79E3902D41748273A364 /* GoogleUtilitiesComponents.framework */,
+				C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher.framework */,
+				6BBB6C18B2CD3B5774C59C0EB3065D02 /* GoogleMVFaceDetectorResources.bundle */,
+				06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */,
 				056029A3CCC108822D74F87F8A8857E9 /* Pods-Valify */,
 				6DCC0DF3F2AA1E19D4CE1DE84F0731DF /* Pods-Valify-ValifyTests */,
-				3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */,
+				3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1511,7 +1507,6 @@
 				647DAB55767C9435023F1E08E99197FE /* encode */,
 				81D5929D73FE9B69957C4B19362929AC /* Support Files */,
 			);
-			name = nanopb;
 			path = nanopb;
 			sourceTree = "<group>";
 		};
@@ -1638,7 +1633,6 @@
 				79BE3D7E85E2A5E434939205B9D5858B /* FBLPromises.h */,
 				509FCCD36275F260DCEB766886677519 /* Support Files */,
 			);
-			name = PromisesObjC;
 			path = PromisesObjC;
 			sourceTree = "<group>";
 		};
@@ -1674,7 +1668,6 @@
 				316CA6443A7E611AD39A09BD6F9F3493 /* MLKitCore */,
 				B197F9E2F57CF13B35C8ECB221CF9370 /* Support Files */,
 			);
-			name = GoogleMLKit;
 			path = GoogleMLKit;
 			sourceTree = "<group>";
 		};
@@ -1873,7 +1866,7 @@
 			);
 			name = PromisesObjC;
 			productName = FBLPromises;
-			productReference = 3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */;
+			productReference = 3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5C0371EE948D0357B8EE0E34ABB44BF0 /* GoogleDataTransport */ = {
@@ -1894,7 +1887,7 @@
 			);
 			name = GoogleDataTransport;
 			productName = GoogleDataTransport;
-			productReference = 856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport */;
+			productReference = 856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */ = {
@@ -1913,7 +1906,7 @@
 			);
 			name = GoogleUtilities;
 			productName = GoogleUtilities;
-			productReference = B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities */;
+			productReference = B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A64F5725956770327D080E1EB31878EE /* GoogleUtilitiesComponents */ = {
@@ -1932,7 +1925,7 @@
 			);
 			name = GoogleUtilitiesComponents;
 			productName = GoogleUtilitiesComponents;
-			productReference = 28A6DB952CEA79E3902D41748273A364 /* GoogleUtilitiesComponents */;
+			productReference = 28A6DB952CEA79E3902D41748273A364 /* GoogleUtilitiesComponents.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AB5C99AA06AF746F16A13E578859A105 /* Pods-Valify-ValifyTests */ = {
@@ -1979,7 +1972,7 @@
 			);
 			name = "MLKitFaceDetection-GoogleMVFaceDetectorResources";
 			productName = GoogleMVFaceDetectorResources;
-			productReference = 6BBB6C18B2CD3B5774C59C0EB3065D02 /* MLKitFaceDetection-GoogleMVFaceDetectorResources */;
+			productReference = 6BBB6C18B2CD3B5774C59C0EB3065D02 /* GoogleMVFaceDetectorResources.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */ = {
@@ -1997,7 +1990,7 @@
 			);
 			name = nanopb;
 			productName = nanopb;
-			productReference = 06FC5C9CF96D60C50FCD47D339C91951 /* nanopb */;
+			productReference = 06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D47C581D39D227080F83B16A22A56664 /* GoogleToolboxForMac */ = {
@@ -2015,7 +2008,7 @@
 			);
 			name = GoogleToolboxForMac;
 			productName = GoogleToolboxForMac;
-			productReference = 251C6319AD50CB50F18D50CBF727F8B2 /* GoogleToolboxForMac */;
+			productReference = 251C6319AD50CB50F18D50CBF727F8B2 /* GoogleToolboxForMac.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D676E21115185671D7258A56944ABE98 /* GTMSessionFetcher */ = {
@@ -2033,7 +2026,7 @@
 			);
 			name = GTMSessionFetcher;
 			productName = GTMSessionFetcher;
-			productReference = C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher */;
+			productReference = C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E70200B4E16D6A505037600A115576AA /* Pods-Valify */ = {
@@ -2694,7 +2687,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2711,7 +2704,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2729,7 +2722,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2747,7 +2740,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2839,7 +2832,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2865,7 +2858,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2882,7 +2875,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2946,7 +2939,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/nanopb/nanopb-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3035,7 +3028,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MLKitFaceDetection";
 				IBSC_MODULE = MLKitFaceDetection;
 				INFOPLIST_FILE = "Target Support Files/MLKitFaceDetection/ResourceBundle-GoogleMVFaceDetectorResources-MLKitFaceDetection-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_NAME = GoogleMVFaceDetectorResources;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -3058,7 +3051,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/GoogleDataTransport/GoogleDataTransport-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3128,7 +3121,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3162,7 +3155,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/nanopb/nanopb-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3196,7 +3189,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3230,7 +3223,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/GoogleUtilitiesComponents/GoogleUtilitiesComponents-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3258,7 +3251,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3282,7 +3275,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/GoogleDataTransport/GoogleDataTransport-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3317,7 +3310,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/GoogleUtilitiesComponents/GoogleUtilitiesComponents-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3344,7 +3337,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3367,7 +3360,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/PromisesObjC/PromisesObjC-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3394,7 +3387,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MLKitFaceDetection";
 				IBSC_MODULE = MLKitFaceDetection;
 				INFOPLIST_FILE = "Target Support Files/MLKitFaceDetection/ResourceBundle-GoogleMVFaceDetectorResources-MLKitFaceDetection-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_NAME = GoogleMVFaceDetectorResources;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -3417,7 +3410,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3452,7 +3445,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3479,7 +3472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3503,7 +3496,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3536,7 +3529,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/PromisesObjC/PromisesObjC-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3563,7 +3556,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

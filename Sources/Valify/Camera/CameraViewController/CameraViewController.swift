@@ -7,6 +7,7 @@
 
 import UIKit
 import Photos
+import MLKit
 
 public class CameraViewController: UIViewController {
     let cameraController = CameraController()
