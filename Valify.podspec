@@ -17,5 +17,6 @@ DESC
   s.source_files  = "Sources/**/*"
   s.exclude_files  = "Sources/Supporting Files/**/*"
   s.framework  = "Foundation"
+  s.static_framework = true
   s.dependency 'GoogleMLKit/FaceDetection'
 end
