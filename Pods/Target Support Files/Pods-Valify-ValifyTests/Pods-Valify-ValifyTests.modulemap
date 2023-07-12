@@ -1,0 +1,6 @@
+framework module Pods_Valify_ValifyTests {
+  umbrella header "Pods-Valify-ValifyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
