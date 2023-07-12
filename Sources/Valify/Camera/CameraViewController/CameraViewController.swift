@@ -7,6 +7,7 @@
 
 import UIKit
 import Photos
+import MLKit
 
 public class CameraViewController: UIViewController {
     let cameraController = CameraController()
@@ -17,6 +18,8 @@ public class CameraViewController: UIViewController {
     let myButton: UIButton = UIButton()
     public var capturedImage: UIImage?
     public var capturedError: Error?
+    let faceDetector = FaceDetector.faceDetector(options: FaceDetection.getOptions())
+    public var visionImage: UIImage?
     
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +32,65 @@ public class CameraViewController: UIViewController {
     public override func viewWillAppear(_ animated: Bool) {
         DispatchQueue.global(qos: .background).async {
             self.cameraController.captureSession?.startRunning()
+        }
+    }
+    
+    func process() {
+        weak var weakSelf = self
+        faceDetector.process(FaceDetection.createImage(image: capturedImage!)) { faces, error in
+          guard let strongSelf = weakSelf else {
+            print("Self is nil!")
+            return
+          }
+          guard error == nil, let faces = faces, !faces.isEmpty else {
+            // ...
+            return
+          }
+
+          // Faces detected
+          // ...
+            self.detectFace(faces: faces)
+        }
+    }
+    func detectFace(faces: [Face]) {
+        for face in faces {
+          let frame = face.frame
+          if face.hasHeadEulerAngleX {
+            let rotX = face.headEulerAngleX  // Head is rotated to the uptoward rotX degrees
+          }
+          if face.hasHeadEulerAngleY {
+            let rotY = face.headEulerAngleY  // Head is rotated to the right rotY degrees
+          }
+          if face.hasHeadEulerAngleZ {
+            let rotZ = face.headEulerAngleZ  // Head is tilted sideways rotZ degrees
+          }
+
+          // If landmark detection was enabled (mouth, ears, eyes, cheeks, and
+          // nose available):
+          if let leftEye = face.landmark(ofType: .leftEye) {
+            let leftEyePosition = leftEye.position
+          }
+
+          // If contour detection was enabled:
+          if let leftEyeContour = face.contour(ofType: .leftEye) {
+            let leftEyePoints = leftEyeContour.points
+          }
+          if let upperLipBottomContour = face.contour(ofType: .upperLipBottom) {
+            let upperLipBottomPoints = upperLipBottomContour.points
+          }
+
+          // If classification was enabled:
+          if face.hasSmilingProbability {
+            let smileProb = face.smilingProbability
+          }
+          if face.hasRightEyeOpenProbability {
+            let rightEyeOpenProb = face.rightEyeOpenProbability
+          }
+
+          // If face tracking was enabled:
+          if face.hasTrackingID {
+            let trackingId = face.trackingID
+          }
         }
     }
     
