@@ -15,20 +15,20 @@ class ToastView: UIView {
         label.numberOfLines = 0
         return label
     }()
-    
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupViews()
     }
-    
+
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
+
     private func setupViews() {
         backgroundColor = UIColor.black.withAlphaComponent(0.7)
         layer.cornerRadius = 8
-        
+
         addSubview(label)
         label.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
@@ -38,7 +38,7 @@ class ToastView: UIView {
             label.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -8)
         ])
     }
-    
+
     func showMessage(_ message: String) {
         label.text = message
     }
