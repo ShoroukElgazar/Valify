@@ -22,9 +22,9 @@
 
 Select `File` -> `Swift Packages` -> `Add Package Dependency` and enter `https://github.com/ShoroukElgazar/Valify.git`.
 
-OR you can add valify as a pod using:
+OR you can add valify as a pod using (includes face detection):
 
-`pod 'Valify', :git => 'https://github.com/ShoroukElgazar/Valify.git', :tag => '1.2.1'`
+`pod 'Valify', :git => 'https://github.com/ShoroukElgazar/Valify.git', :tag => '1.3.1'`
 
 Then simply `import Valify` wherever you’d like to use the library.
 
