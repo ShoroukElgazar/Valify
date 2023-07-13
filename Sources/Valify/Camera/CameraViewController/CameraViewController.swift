@@ -79,9 +79,9 @@ public class CameraViewController: UIViewController, FaceDetection {
     }
     
     public func setupToastView() {
-        toastView.isHidden = true
         toastView = ToastView()
         toastView.frame = CGRect(x: 20, y: 20, width: 200, height: 100)
+        toastView.isHidden = true
         view.addSubview(toastView)
     }
     
