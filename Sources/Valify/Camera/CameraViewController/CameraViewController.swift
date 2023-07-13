@@ -6,101 +6,84 @@
 //
 
 import UIKit
-import Photos
-import MLKit
+import MLKitFaceDetection
 
-public class CameraViewController: UIViewController {
+
+protocol FaceDetection {
+    func faceDetected(_ isDetected: Bool)
+}
+
+public class CameraViewController: UIViewController, FaceDetection {
+    
+    var isFaceDetected = false
     let cameraController = CameraController()
     public var onCompleted: ((UIImage?,Error?) -> Void)? = nil
     var onDismiss: (() -> Void) = {}
+    var onFaceDetected: (() -> Void) = {}
     public var previewView : UIView!
     var boxView:UIView!
+    var squareView:UIView!
     let myButton: UIButton = UIButton()
     public var capturedImage: UIImage?
     public var capturedError: Error?
-    let faceDetector = FaceDetector.faceDetector(options: FaceDetection.getOptions())
-     public var visionImage: UIImage?
-    
+    var visionImage: UIImage?
+    var toastView: ToastView!
+ 
     public override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         setupView()
         configureCameraController()
-     
-        
+        cameraController.delegate = self
+    
     }
+
     public override func viewWillAppear(_ animated: Bool) {
         DispatchQueue.global(qos: .background).async {
             self.cameraController.captureSession?.startRunning()
         }
     }
     
-    
-    func process() {
-          weak var weakSelf = self
-          faceDetector.process(FaceDetection.createImage(image: capturedImage!)) { faces, error in
-            guard let strongSelf = weakSelf else {
-              print("Self is nil!")
-              return
-            }
-            guard error == nil, let faces = faces, !faces.isEmpty else {
-              // ...
-              return
-            }
-
-            // Faces detected
-            // ...
-              self.detectFace(faces: faces)
-          }
-      }
-      func detectFace(faces: [Face]) {
-          for face in faces {
-            let frame = face.frame
-            if face.hasHeadEulerAngleX {
-              let rotX = face.headEulerAngleX  // Head is rotated to the uptoward rotX degrees
-            }
-            if face.hasHeadEulerAngleY {
-              let rotY = face.headEulerAngleY  // Head is rotated to the right rotY degrees
-            }
-            if face.hasHeadEulerAngleZ {
-              let rotZ = face.headEulerAngleZ  // Head is tilted sideways rotZ degrees
-            }
-
-            // If landmark detection was enabled (mouth, ears, eyes, cheeks, and
-            // nose available):
-            if let leftEye = face.landmark(ofType: .leftEye) {
-              let leftEyePosition = leftEye.position
-            }
-
-            // If contour detection was enabled:
-            if let leftEyeContour = face.contour(ofType: .leftEye) {
-              let leftEyePoints = leftEyeContour.points
-            }
-            if let upperLipBottomContour = face.contour(ofType: .upperLipBottom) {
-              let upperLipBottomPoints = upperLipBottomContour.points
-            }
-
-            // If classification was enabled:
-            if face.hasSmilingProbability {
-              let smileProb = face.smilingProbability
-            }
-            if face.hasRightEyeOpenProbability {
-              let rightEyeOpenProb = face.rightEyeOpenProbability
-            }
-
-            // If face tracking was enabled:
-            if face.hasTrackingID {
-              let trackingId = face.trackingID
-            }
-          }
-      }
-    
     public func setupView() {
-       setpPreviewView()
+        setpPreviewView()
         setpBoxView()
+        setupToastView()
+        setupSquareView()
         setpCaptureButton()
     }
     
+    func showToastMessage(msg: String) {
+        toastView.showMessage(msg)
+    }
+    
+    func faceDetected(_ isDetected: Bool)  {
+        DispatchQueue.main.async {
+            if isDetected{
+                self.squareView.isHidden = false
+                self.isFaceDetected = true
+                self.toastView.isHidden = true
+
+            }else{
+                self.squareView.isHidden = true
+                self.isFaceDetected = false
+
+            }
+        }
+    }
+
+    public func setupSquareView() {
+        squareView = UIView(frame: CGRect(x: 0, y: 0, width: 300, height: 300))
+        squareView.center = view.center
+        squareView.layer.borderWidth = 2
+        squareView.layer.borderColor = UIColor.red.cgColor
+        view.addSubview(squareView)
+    }
+    
+    public func setupToastView() {
+        toastView.isHidden = true
+        toastView = ToastView()
+        toastView.frame = CGRect(x: 20, y: 20, width: 200, height: 100)
+        view.addSubview(toastView)
+    }
     
     public func setpPreviewView() {
         previewView = UIView(frame:
@@ -131,7 +114,13 @@ public class CameraViewController: UIViewController {
     
   
     @objc func onClickCaptureButton(sender: UIButton){
-        handleCapturingImage()
+        if isFaceDetected {
+            handleCapturingImage()
+        }else{
+            showToastMessage(msg: "No Face is detected")
+            self.toastView.isHidden = false
+        }
+       
     }
     
     

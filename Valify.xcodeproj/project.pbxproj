@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		049E09F52A5F5F1000970D76 /* FaceDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E09F42A5F5F1000970D76 /* FaceDetection.swift */; };
 		049E09F92A5F62E200970D76 /* FBLPromises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049E09F82A5F62E200970D76 /* FBLPromises.framework */; };
 		049E0A032A5F62ED00970D76 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049E0A022A5F62ED00970D76 /* nanopb.framework */; };
 		049E0A062A5F62F100970D76 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049E0A052A5F62F100970D76 /* GTMSessionFetcher.framework */; };
@@ -17,6 +16,8 @@
 		049E0A122A5F630200970D76 /* GoogleDataTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049E0A112A5F630200970D76 /* GoogleDataTransport.framework */; };
 		049E0A142A5F673E00970D76 /* Pods_Valify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84DF6166119087868A05193 /* Pods_Valify.framework */; };
 		049E0A152A5F673E00970D76 /* Pods_Valify.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A84DF6166119087868A05193 /* Pods_Valify.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		049E0A222A5FB0B100970D76 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E0A212A5FB0B100970D76 /* ToastView.swift */; };
+		049E0A252A5FB10700970D76 /* Image+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E0A242A5FB10700970D76 /* Image+Orientation.swift */; };
 		04CDE7772A5C582900628EA0 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CDE7672A5C582900628EA0 /* CameraViewController.xib */; };
 		04CDE7792A5C582900628EA0 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDE7692A5C582900628EA0 /* CameraController.swift */; };
 		04CDE77A2A5C582900628EA0 /* CameraNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDE76A2A5C582900628EA0 /* CameraNavigationViewController.swift */; };
@@ -55,7 +56,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		049E09F42A5F5F1000970D76 /* FaceDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetection.swift; sourceTree = "<group>"; };
 		049E09F82A5F62E200970D76 /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		049E0A022A5F62ED00970D76 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		049E0A052A5F62F100970D76 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +63,8 @@
 		049E0A0B2A5F62F700970D76 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		049E0A0E2A5F62FA00970D76 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		049E0A112A5F630200970D76 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		049E0A212A5FB0B100970D76 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		049E0A242A5FB10700970D76 /* Image+Orientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Orientation.swift"; sourceTree = "<group>"; };
 		04CDE7672A5C582900628EA0 /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
 		04CDE7692A5C582900628EA0 /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		04CDE76A2A5C582900628EA0 /* CameraNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraNavigationViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +128,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		049E0A232A5FB0F100970D76 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04CDE7DC2A5C882E00628EA0 /* Button+Layout.swift */,
+				049E0A242A5FB10700970D76 /* Image+Orientation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		04CDE7642A5C582900628EA0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,7 +162,6 @@
 				04CDE7DE2A5C889900628EA0 /* PhotoPreviewController */,
 				04CDE7692A5C582900628EA0 /* CameraController.swift */,
 				04CDE76A2A5C582900628EA0 /* CameraNavigationViewController.swift */,
-				049E09F42A5F5F1000970D76 /* FaceDetection.swift */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -159,7 +169,8 @@
 		04CDE7DB2A5C880C00628EA0 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				04CDE7DC2A5C882E00628EA0 /* Button+Layout.swift */,
+				049E0A212A5FB0B100970D76 /* ToastView.swift */,
+				049E0A232A5FB0F100970D76 /* Extensions */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -429,11 +440,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049E09F52A5F5F1000970D76 /* FaceDetection.swift in Sources */,
 				04CDE77B2A5C582900628EA0 /* PhotoPreviewViewController.swift in Sources */,
+				049E0A252A5FB10700970D76 /* Image+Orientation.swift in Sources */,
 				04CDE7DD2A5C882E00628EA0 /* Button+Layout.swift in Sources */,
 				04CDE77D2A5C582900628EA0 /* CameraViewController.swift in Sources */,
 				04CDE7792A5C582900628EA0 /* CameraController.swift in Sources */,
+				049E0A222A5FB0B100970D76 /* ToastView.swift in Sources */,
 				04CDE77A2A5C582900628EA0 /* CameraNavigationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
