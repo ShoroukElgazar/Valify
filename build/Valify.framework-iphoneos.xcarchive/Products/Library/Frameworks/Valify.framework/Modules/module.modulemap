@@ -1,4 +1,0 @@
-framework module Valify {
-  header "Valify-Swift.h"
-  requires objc
-}

@@ -137,6 +137,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		049E0A2B2A6042E200970D76 /* CameraManager */ = {
+			isa = PBXGroup;
+			children = (
+				04CDE7692A5C582900628EA0 /* CameraController.swift */,
+				04CDE76A2A5C582900628EA0 /* CameraNavigationViewController.swift */,
+			);
+			path = CameraManager;
+			sourceTree = "<group>";
+		};
 		04CDE7642A5C582900628EA0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,10 +167,9 @@
 		04CDE7662A5C582900628EA0 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
+				049E0A2B2A6042E200970D76 /* CameraManager */,
 				04CDE7DF2A5C88AE00628EA0 /* CameraViewController */,
 				04CDE7DE2A5C889900628EA0 /* PhotoPreviewController */,
-				04CDE7692A5C582900628EA0 /* CameraController.swift */,
-				04CDE76A2A5C582900628EA0 /* CameraNavigationViewController.swift */,
 			);
 			path = Camera;
 			sourceTree = "<group>";

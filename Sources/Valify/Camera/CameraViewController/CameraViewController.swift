@@ -15,19 +15,19 @@ protocol FaceDetection {
 
 public class CameraViewController: UIViewController, FaceDetection {
     
-    var isFaceDetected = false
-    let cameraController = CameraController()
+    private var isFaceDetected = false
+    private let cameraController = CameraController()
     public var onCompleted: ((UIImage?,Error?) -> Void)? = nil
     var onDismiss: (() -> Void) = {}
     var onFaceDetected: (() -> Void) = {}
     public var previewView : UIView!
-    var boxView:UIView!
-    var squareView:UIView!
-    let myButton: UIButton = UIButton()
+    private var boxView:UIView!
+    private var squareView:UIView!
+    private let myButton: UIButton = UIButton()
     public var capturedImage: UIImage?
     public var capturedError: Error?
-    var visionImage: UIImage?
-    var toastView: ToastView!
+    private var visionImage: UIImage?
+    private var toastView: ToastView!
  
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,7 +43,7 @@ public class CameraViewController: UIViewController, FaceDetection {
         }
     }
     
-    public func setupView() {
+    private func setupView() {
         setpPreviewView()
         setpBoxView()
         setupToastView()
@@ -51,7 +51,7 @@ public class CameraViewController: UIViewController, FaceDetection {
         setpCaptureButton()
     }
     
-    func showToastMessage(msg: String) {
+    private func showToastMessage(msg: String) {
         toastView.showMessage(msg)
     }
     
@@ -70,7 +70,7 @@ public class CameraViewController: UIViewController, FaceDetection {
         }
     }
 
-    public func setupSquareView() {
+    private func setupSquareView() {
         squareView = UIView(frame: CGRect(x: 0, y: 0, width: 300, height: 300))
         squareView.center = view.center
         squareView.layer.borderWidth = 2
@@ -78,14 +78,14 @@ public class CameraViewController: UIViewController, FaceDetection {
         view.addSubview(squareView)
     }
     
-    public func setupToastView() {
+    private func setupToastView() {
         toastView = ToastView()
         toastView.frame = CGRect(x: 20, y: 20, width: 200, height: 100)
         toastView.isHidden = true
         view.addSubview(toastView)
     }
     
-    public func setpPreviewView() {
+    private func setpPreviewView() {
         previewView = UIView(frame:
         CGRect(x: 0,y: 0,width: UIScreen.main.bounds.size.width,
                 height: UIScreen.main.bounds.size.height))
@@ -93,13 +93,12 @@ public class CameraViewController: UIViewController, FaceDetection {
         view.addSubview(previewView)
     }
     
-    public func setpBoxView() {
+    private func setpBoxView() {
         boxView = UIView(frame: self.view.frame)
         view.addSubview(boxView)
     }
     
-    public func setpCaptureButton() {
-        
+    private func setpCaptureButton() {
         let buttonWidth: CGFloat = 150
         let buttonHeight: CGFloat = 40
         let xPosition = (self.view.bounds.width - buttonWidth) / 2
@@ -124,7 +123,7 @@ public class CameraViewController: UIViewController, FaceDetection {
     }
     
     
-    public func handleCapturingImage() {
+    private func handleCapturingImage() {
         cameraController.captureImage { image, error in
             guard let image = image else {
                 print(error ?? "Image capture error")
@@ -153,7 +152,7 @@ public class CameraViewController: UIViewController, FaceDetection {
         }
     }
     
-    public  func configureCameraController() {
+    private func configureCameraController() {
         cameraController.prepare {(error) in
             if let error = error {
                 print(error)

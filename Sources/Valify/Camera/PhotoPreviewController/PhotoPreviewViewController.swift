@@ -32,7 +32,7 @@ public class PhotoPreviewViewController: UIViewController {
     }
     
     
-    public func setupView() {
+    private func setupView() {
        
         setupPreviewView()
         setupBoxView()
@@ -40,7 +40,7 @@ public class PhotoPreviewViewController: UIViewController {
         setupImage()
     }
     
-    public func setupPreviewView() {
+    private func setupPreviewView() {
         previewView = UIView(frame:
         CGRect(x: 0,y: 0,width: UIScreen.main.bounds.size.width,
                 height: UIScreen.main.bounds.size.height))
@@ -48,18 +48,18 @@ public class PhotoPreviewViewController: UIViewController {
         view.addSubview(previewView)
     }
     
-    public func setupBoxView() {
+    private func setupBoxView() {
         boxView = UIView(frame: self.view.frame)
         view.addSubview(boxView)
     }
     
-    public func setupImage() {
+    private func setupImage() {
         imageView.contentMode = .scaleAspectFit
         imageView.image = imageView.image
         boxView.addSubview(imageView)
     }
     
-    public func setupButtons() {
+    private func setupButtons() {
         // Create two buttons
         let buttonWidth: CGFloat = 150
         let buttonHeight: CGFloat = 40
