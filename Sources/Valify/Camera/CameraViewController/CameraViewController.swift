@@ -65,7 +65,6 @@ public class CameraViewController: UIViewController, FaceDetection {
             }else{
                 self.squareView.isHidden = true
                 self.isFaceDetected = false
-
             }
         }
     }
@@ -79,8 +78,11 @@ public class CameraViewController: UIViewController, FaceDetection {
     }
     
     private func setupToastView() {
-        toastView = ToastView()
-        toastView.frame = CGRect(x: 20, y: 20, width: 200, height: 100)
+        let toastView = UIView()
+        toastView.backgroundColor = UIColor.black
+        toastView.alpha = 0.8
+        toastView.layer.cornerRadius = 10
+        toastView.frame = CGRect(x: (UIScreen.main.bounds.width - 200) / 2, y: 20, width: 200, height: 100)
         toastView.isHidden = true
         view.addSubview(toastView)
     }
