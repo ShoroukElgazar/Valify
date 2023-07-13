@@ -1,7 +1,7 @@
 **Valify** is a simple framework to capture photos.
 
 ![swift v5.3](https://img.shields.io/badge/swift-v5.3-orange.svg)
-![iOS 13](https://img.shields.io/badge/iOS-13.0+-865EFC.svg)
+![iOS 14](https://img.shields.io/badge/iOS-14.0+-865EFC.svg)
 ![macOS](https://img.shields.io/badge/macOS-10.15+-179AC8.svg)
 ![tvOS](https://img.shields.io/badge/tvOS-13.0+-41465B.svg)
 ![License](https://img.shields.io/badge/License-Apache-blue.svg)
